@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumo: Every candidate, understood.</title>
+<meta name="description" content="Lumo interviews job candidates by voice and scores them against your company values and the job description. A person makes every decision.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1214 1214'%3E%3Ccircle cx='607' cy='607' r='602' fill='%230A0A0A'/%3E%3Crect x='-75' y='-135' width='150' height='270' rx='75' transform='translate(663 418) rotate(-33)' fill='%23fff'/%3E%3Crect x='-55' y='-125' width='110' height='250' rx='55' transform='translate(945 275) rotate(-33)' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#FFFFFF; --bg-alt:#F5F5F7; --card:#FFFFFF; --ink:#1D1D1F; --muted:#6E6E73; --line:rgba(0,0,0,.1);
+  --blue:#0071E3; --blue-dark:#0059B8; --green:#248A3D; --green-bg:#E4F6E9; --orange:#A35200; --orange-bg:#FFF1DB;
+  --nav:rgba(255,255,255,.8); --dark:#000; --dark-ink:#F5F5F7; --dark-muted:#A1A1A6;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",Inter,"Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#000;--bg-alt:#111113;--card:#1C1C1E;--ink:#F5F5F7;--muted:#A1A1A6;--line:rgba(255,255,255,.14);--blue:#2997FF;--blue-dark:#64B5FF;--green:#30D158;--green-bg:#12301B;--orange:#FFB340;--orange-bg:#3A2A0E;--nav:rgba(0,0,0,.72);}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased;line-height:1.47;font-size:17px}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.wrap{width:min(1080px,calc(100% - 48px));margin:0 auto}
+.eyebrow{font-size:14px;font-weight:600;color:var(--blue);letter-spacing:.2px;margin:0 0 12px}
+h1,h2,h3{margin:0;letter-spacing:-.02em;line-height:1.08}
+h1{font-size:clamp(44px,8vw,84px);font-weight:700;letter-spacing:-.035em}
+h2{font-size:clamp(32px,5vw,52px);font-weight:700}
+h3{font-size:21px;font-weight:600;letter-spacing:-.01em;line-height:1.2}
+p{margin:0}
+.lead{font-size:clamp(19px,2.4vw,24px);line-height:1.35;color:var(--muted);letter-spacing:-.01em}
+section{padding:112px 0}
+.center{text-align:center}
+.center .lead{max-width:640px;margin:18px auto 0}
+
+/* nav */
+nav{position:sticky;top:0;z-index:10;background:var(--nav);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:.5px solid var(--line)}
+.nav-in{height:52px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:19px;letter-spacing:-.01em}
+.nav-links{display:flex;gap:28px;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{display:flex;align-items:center;gap:18px;font-size:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 24px;border-radius:980px;font-size:17px;font-weight:500;background:var(--blue);color:#fff;border:0;cursor:pointer;font-family:inherit;transition:background .2s}
+.btn:hover{background:var(--blue-dark)}
+.btn.small{height:32px;padding:0 14px;font-size:14px}
+.btn.ghost{background:transparent;color:var(--blue);padding:0 8px}
+.btn.ghost:hover{background:transparent;text-decoration:underline}
+@media(max-width:760px){.nav-links{display:none}}
+
+/* hero */
+.hero{padding:88px 0 0;text-align:center;overflow:hidden}
+.hero .lead{max-width:680px;margin:22px auto 0}
+.hero-cta{display:flex;gap:12px;justify-content:center;align-items:center;margin-top:32px;flex-wrap:wrap}
+.stage{position:relative;margin-top:72px;height:560px;display:flex;justify-content:center}
+.phone{position:relative;width:300px;height:620px;border-radius:48px;background:var(--bg-alt);border:10px solid #1D1D1F;box-shadow:0 40px 80px rgba(0,0,0,.18);overflow:hidden;text-align:left}
+@media (prefers-color-scheme: dark){.phone{border-color:#3A3A3C}}
+.phone-screen{padding:56px 16px 0;height:100%;background:#F2F2F7;color:#000}
+.pt{font-size:28px;font-weight:700;letter-spacing:-.4px;line-height:1.15}
+.ps{font-size:12px;color:#6C6C70;margin-bottom:12px}
+.pcard{background:#fff;border-radius:16px;padding:14px}
+.pscore{display:flex;align-items:center;gap:12px}
+.pscore b{font-size:48px;line-height:1;letter-spacing:-1px;color:#248A3D}
+.pbar{display:flex;align-items:center;gap:8px;height:24px;font-size:12px;color:#000}
+.pbar span:first-child{width:92px}
+.pbar i{flex:1;height:5px;border-radius:3px;background:#E5E5EA;position:relative;overflow:hidden}
+.pbar i::after{content:"";position:absolute;inset:0;width:var(--w);background:#0071E3;border-radius:3px;transform-origin:left;animation:grow 1.2s .3s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+.pbar em{width:22px;text-align:right;font-style:normal;font-weight:600}
+.pev{margin-top:10px;background:#fff;border-radius:12px;padding:10px 14px;font-size:12px;line-height:1.35;color:#3C3C43}
+.tag{display:inline-block;font-size:10px;font-weight:600;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag.g{background:#E4F6E9;color:#1D7A3A}.tag.o{background:#FFF1DB;color:#A35200}
+.float{position:absolute;background:var(--card);border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.14);padding:16px 18px;text-align:left;font-size:15px;line-height:1.35}
+.float.l{left:calc(50% - 470px);top:90px;width:250px;animation:bob 6s ease-in-out infinite}
+.float.r{right:calc(50% - 470px);top:250px;width:240px;animation:bob 7s .6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.float small{display:block;font-size:12px;color:var(--muted);margin-bottom:4px;font-weight:600;letter-spacing:.3px}
+.wave{display:flex;gap:3px;align-items:center;height:22px;margin-top:8px}
+.wave i{width:3px;height:22px;border-radius:2px;background:var(--ink);animation:lb 1s ease-in-out infinite}
+.wave i:nth-child(2n){animation-delay:.15s}.wave i:nth-child(3n){animation-delay:.3s}.wave i:nth-child(5n){animation-delay:.45s}
+@keyframes lb{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}
+@media(max-width:1180px){.float{display:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:64px}
+.step{background:var(--bg-alt);border-radius:28px;padding:32px;min-height:300px;display:flex;flex-direction:column}
+.step .n{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-weight:600;font-size:15px;margin-bottom:auto}
+.step h3{margin-top:60px}
+.step p{color:var(--muted);margin-top:10px;font-size:16px}
+@media(max-width:860px){.steps{grid-template-columns:1fr}.step{min-height:0}.step h3{margin-top:36px}}
+
+/* features */
+.alt{background:var(--bg-alt)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:64px}
+.tile{background:var(--card);border-radius:28px;padding:32px}
+.alt .tile{background:var(--card)}
+.tile .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;margin-bottom:22px}
+.tile p{color:var(--muted);font-size:16px;margin-top:8px}
+.ic.b{background:#E3F0FF;color:#0059B8}.ic.g{background:var(--green-bg);color:#1D7A3A}.ic.o{background:var(--orange-bg);color:#A35200}.ic.v{background:#EEE8FB;color:#5B3BC2}.ic.r{background:#FDE7E7;color:#C4161C}.ic.k{background:#EEEEF0;color:#1D1D1F}
+.tile.full{grid-column:1/-1;display:flex;align-items:center;gap:24px}
+.tile.full .ic{margin-bottom:0;flex:none}
+.tile.full p{margin-top:4px}
+.tile.wide{grid-column:span 2;display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.tile.wide{grid-column:span 2;grid-template-columns:1fr}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}.tile.wide{grid-column:auto}.tile.full{display:block}.tile.full .ic{margin-bottom:22px}}
+.mini{background:var(--bg-alt);border-radius:18px;padding:16px;font-size:14px;line-height:1.4}
+.mini q{display:block;quotes:none;color:var(--ink);font-size:15px}
+.mini .who{margin-top:8px;font-size:12px;color:var(--muted)}
+
+/* fairness */
+.dark{background:#000;color:var(--dark-ink)}
+.dark .eyebrow{color:#2997FF}
+.dark .lead{color:var(--dark-muted)}
+.rules{display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px;margin-top:56px;border-top:1px solid rgba(255,255,255,.16)}
+.rule{padding:26px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.rule b{display:block;font-size:19px;font-weight:600;letter-spacing:-.01em}
+.rule span{color:var(--dark-muted);font-size:16px}
+@media(max-width:760px){.rules{grid-template-columns:1fr}}
+
+/* faq */
+.faq{max-width:760px;margin:56px auto 0}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{cursor:pointer;font-size:21px;font-weight:600;letter-spacing:-.01em;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:28px;font-weight:300;color:var(--muted);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:12px;color:var(--muted);font-size:17px}
+
+/* cta */
+.cta{text-align:center;padding:120px 0}
+.cta .orb{margin:0 auto 28px}
+.form{display:flex;gap:10px;justify-content:center;margin-top:34px;flex-wrap:wrap}
+.form input{height:44px;min-width:280px;border-radius:980px;border:1px solid var(--line);background:var(--bg-alt);color:var(--ink);padding:0 20px;font-size:17px;font-family:inherit}
+.form input:focus{outline:2px solid var(--blue);outline-offset:1px}
+.note{margin-top:14px;font-size:14px;color:var(--muted);min-height:20px}
+
+footer{background:var(--bg-alt);padding:32px 0 44px;font-size:12px;color:var(--muted)}
+.foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-top:20px;border-top:1px solid var(--line)}
+.foot p.fine{max-width:640px;margin-bottom:18px}
+.links{display:flex;gap:20px}
+
+/* builder */
+.builder{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:56px;align-items:start}
+@media(max-width:960px){.builder{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:28px;padding:28px;margin-bottom:20px}
+.card:last-child{margin-bottom:0}
+.card h3{margin-bottom:4px}
+.card .sub{color:var(--muted);font-size:15px;margin-bottom:20px}
+.pill{display:inline-block;font-size:12px;font-weight:600;border-radius:980px;padding:3px 10px;background:#E3F0FF;color:#0059B8;margin-bottom:10px}
+.pill.v{background:#EEE8FB;color:#5B3BC2}
+@media (prefers-color-scheme: dark){.pill{background:#10294A;color:#64B5FF}.pill.v{background:#2A2145;color:#BDA8FF}}
+.field{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;font-weight:600;margin:16px 0 6px}
+.field output{color:var(--muted);font-weight:500}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.row2{grid-template-columns:1fr}}
+.in,.ta{width:100%;border:1px solid var(--line);background:var(--bg-alt);color:var(--ink);border-radius:12px;padding:11px 14px;font-size:16px;font-family:inherit}
+.ta{resize:vertical;min-height:76px}
+.in:focus,.ta:focus{outline:2px solid var(--blue);outline-offset:1px}
+input[type=range]{width:100%;accent-color:var(--blue)}
+.tabs{display:inline-flex;background:var(--bg-alt);border-radius:10px;padding:3px;margin:18px 0 14px;flex-wrap:wrap}
+.tabs button{border:0;background:transparent;color:var(--ink);font:inherit;font-size:14px;font-weight:500;padding:6px 14px;border-radius:8px;cursor:pointer}
+.tabs button.on{background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.14);font-weight:600}
+.src{display:none}.src.on{display:block}
+.hint{font-size:13px;color:var(--muted);margin:8px 0 0}
+.btn.sec{background:var(--bg-alt);color:var(--blue)}
+.btn.sec:hover{background:var(--line)}
+.btn.sm{height:36px;font-size:15px;padding:0 18px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 12px}
+@media(max-width:560px){.opts{grid-template-columns:1fr}}
+.opt{display:flex;align-items:center;gap:8px}
+.opt input[type=radio]{accent-color:var(--blue);flex:none}
+.qlist{list-style:none;margin:20px 0 0;padding:0;border-top:1px solid var(--line)}
+.qlist li{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}
+.qn{flex:none;width:26px;height:26px;border-radius:50%;background:var(--bg-alt);display:grid;place-items:center;font-size:13px;font-weight:600}
+.qb{flex:1;font-size:16px}
+.qb small{display:block;color:var(--muted);font-size:13px;margin-top:3px}
+.qb small b{color:var(--green)}
+.x{border:0;background:transparent;color:var(--muted);font-size:22px;line-height:1;cursor:pointer;padding:2px 6px;border-radius:6px}
+.x:hover{color:#D70015}
+.empty{color:var(--muted);font-size:15px;padding:16px 0}
+.summary{position:sticky;top:76px}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--bg-alt);margin:16px 0 10px}
+.bar i{display:block;transition:width .3s}
+.bar .b1{background:#0071E3}.bar .b2{background:#7C5CE0}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--muted);flex-wrap:wrap}
+.legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:4px;margin-right:6px;background:var(--c)}
+.big{font-size:44px;font-weight:700;letter-spacing:-1px;line-height:1}
+.stats{margin:20px 0 4px;border-top:1px solid var(--line)}
+.stat{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+.stat span:first-child{color:var(--muted)}
+.warn{font-size:13px;color:var(--orange);background:var(--orange-bg);border-radius:10px;padding:8px 12px;margin-top:12px;display:none}
+.warn.on{display:block}
+.summary .btn{width:100%;margin-top:18px}
+/* preview */
+dialog{border:0;border-radius:28px;padding:0;width:min(440px,calc(100% - 32px));background:var(--bg-alt);color:var(--ink);box-shadow:0 40px 100px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.pv{padding:24px;min-height:520px;display:flex;flex-direction:column}
+.pv-top{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted);margin-bottom:8px}
+.pv-top button{border:0;background:transparent;color:var(--blue);font:inherit;font-size:16px;cursor:pointer}
+.pv-prog{height:4px;border-radius:2px;background:var(--line);margin-bottom:28px}
+.pv-prog i{display:block;height:4px;border-radius:2px;background:var(--ink);transition:width .3s}
+.pv h4{margin:0;font-size:26px;line-height:1.2;letter-spacing:-.02em}
+.pv p.d{color:var(--muted);margin-top:10px}
+.choice{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:var(--card);border:2px solid transparent;border-radius:14px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);cursor:pointer;margin-top:10px}
+.choice.sel{border-color:var(--blue)}
+.choice b{flex:none;width:26px;height:26px;border-radius:50%;background:var(--bg-alt);display:grid;place-items:center;font-size:13px}
+.pv .grow{flex:1}
+.pv .btn{width:100%;margin-top:18px}
+.pv .btn[disabled]{opacity:.4;cursor:default}
+.orb-lg{margin:8px auto 18px}
+.pv .wave{justify-content:center;height:40px;margin:22px 0}
+.pv .wave i{height:40px;width:4px}
+.timer{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Lumo home">
+      <svg width="26" height="26" viewBox="0 0 1214 1214" aria-hidden="true"><circle cx="607" cy="607" r="602" fill="#0A0A0A"/><rect x="-75" y="-135" width="150" height="270" rx="75" transform="translate(663 418) rotate(-33)" fill="#fff"/><rect x="-55" y="-125" width="110" height="250" rx="55" transform="translate(945 275) rotate(-33)" fill="#fff"/></svg>
+      Lumo
+    </a>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#builder">Try it</a>
+      <a href="#fairness">Fairness</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#">Sign in</a>
+      <a class="btn small" href="#join">Get early access</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">AI hiring interviewer</p>
+    <h1>Every candidate,<br>understood.</h1>
+    <p class="lead">Lumo runs a two-part interview: quick objective questions, then a voice conversation. It scores each candidate against your values and the job description. You review a ranked shortlist, and you make every decision.</p>
+    <div class="hero-cta">
+      <a class="btn" href="#join">Get early access</a>
+      <a class="btn ghost" href="#how">See how it works &rsaquo;</a>
+    </div>
+
+    <div class="stage">
+      <div class="float l">
+        <small>LUMO IS ASKING</small>
+        Tell me about a time you owned a problem.
+        <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="phone" role="img" aria-label="Candidate scorecard for Chidi Eze showing an overall score of 88 and scores by criterion">
+        <div class="phone-screen">
+          <div class="pt">Chidi Eze</div>
+          <div class="ps">Operations Analyst · 18 min interview</div>
+          <div class="pcard">
+            <div class="pscore"><b>88</b><div><div style="font-weight:600;font-size:14px">Strong match</div><div style="font-size:11px;color:#6C6C70">Lumo's suggestion, 9 answers</div></div></div>
+            <div style="margin-top:8px">
+              <div class="pbar"><span>Role skills</span><i style="--w:91%"></i><em>91</em></div>
+              <div class="pbar"><span>Values</span><i style="--w:86%"></i><em>86</em></div>
+              <div class="pbar"><span>Communication</span><i style="--w:84%"></i><em>84</em></div>
+              <div class="pbar"><span>Experience</span><i style="--w:79%"></i><em>79</em></div>
+            </div>
+          </div>
+          <div class="pev"><b>Ownership</b><span class="tag g">High</span><br>“I rebuilt the reconciliation sheet myself and told finance before they asked.”</div>
+          <div class="pev"><b>Customer first</b><span class="tag o">Not shown</span><br>No example given. Worth asking in the next round.</div>
+        </div>
+      </div>
+
+      <div class="float r">
+        <small>SUGGESTION, NOT A DECISION</small>
+        <b>Advance to next round?</b><br>
+        <span style="color:var(--muted)">A person reviews every scorecard.</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="how">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">How it works</p>
+      <h2>Set up once.<br>Interview everyone.</h2>
+      <p class="lead">First-round interviews take weeks. Lumo runs them in days, the same way for every candidate.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Set up the role</h3><p>Import the job description, pick your values and set the time. Use Lumo's questions, upload your own or write them yourself.</p></div>
+      <div class="step"><div class="n">2</div><h3>Two parts, one link</h3><p>Part 1 is objective questions, scored automatically. Part 2 is a voice interview where Lumo asks the same questions of everyone and follows up when an answer is vague.</p></div>
+      <div class="step"><div class="n">3</div><h3>Review and decide</h3><p>See a ranked shortlist with a score for each criterion and the exact words behind it. You advance, hold or decline.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="alt">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Features</p>
+      <h2>Built for evidence,<br>not gut feeling.</h2>
+    </div>
+    <div class="grid">
+      <div class="tile wide">
+        <div>
+          <div class="ic b"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+          <h3>A voice interviewer that listens</h3>
+          <p>Lumo speaks each question, waits for the answer and asks a follow-up when it matters. Candidates can repeat, skip or stop at any time, and can type instead if they prefer.</p>
+        </div>
+        <div class="mini"><b style="font-size:12px;color:var(--muted);letter-spacing:.3px">LUMO</b><q>How long does that take each week?</q><div class="who" style="margin-top:0">Follow-up</div></div>
+      </div>
+      <div class="tile">
+        <div class="ic g"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-6"/></svg></div>
+        <h3>Scorecards from your values</h3>
+        <p>Choose the values and skills that matter. Every answer is scored against them.</p>
+      </div>
+      <div class="tile">
+        <div class="ic o"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14v11H10l-5 4z"/></svg></div>
+        <h3>Every score shows its quote</h3>
+        <p>No quote, no score. You see the candidate's own words behind each number.</p>
+      </div>
+      <div class="tile">
+        <div class="ic v"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg></div>
+        <h3>Gaps, not guesses</h3>
+        <p>If an answer doesn't show a value, Lumo flags it for the next round instead of guessing.</p>
+      </div>
+      <div class="tile">
+        <div class="ic r"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Listen in, take over</h3>
+        <p>Watch an interview live, muted, and step in with one tap whenever you want.</p>
+      </div>
+      <div class="tile full">
+        <div class="ic k"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 19a6 6 0 0 1 12 0M16 6a3 3 0 0 1 0 6M18 19a5 5 0 0 0-3-4.5"/></svg></div>
+        <div><h3>A ranked shortlist</h3>
+        <p>Compare candidates side by side and move the best ones forward in minutes.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="builder" class="alt">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Interview builder</p>
+      <h2>Two parts.<br>Your questions, your time.</h2>
+      <p class="lead">Start with quick objective questions, then let Lumo interview by voice. Set the time for each part, and use Lumo's questions, upload yours or write your own.</p>
+    </div>
+
+    <div class="builder">
+      <div>
+        <div class="card">
+          <h3>Role and schedule</h3>
+          <p class="sub">Candidates can start any time inside this window.</p>
+          <label class="field" for="role">Role</label>
+          <input class="in" id="role" value="Operations Analyst" autocomplete="off">
+          <div class="row2">
+            <div><label class="field" for="from">Open from</label><input class="in" type="date" id="from"></div>
+            <div><label class="field" for="to">Open until</label><input class="in" type="date" id="to"></div>
+          </div>
+        </div>
+
+        <div class="card" data-part="1">
+          <span class="pill">Part 1</span>
+          <h3>Objective questions</h3>
+          <p class="sub">Multiple choice. Scored automatically and counted toward role skills.</p>
+          <label class="field" for="r1">Time for this part <output id="t1">15 min</output></label>
+          <input type="range" id="r1" min="5" max="30" step="5" value="15">
+          <div class="tabs" role="group" aria-label="Part 1 question source">
+            <button type="button" class="on" data-src="draft">Lumo drafts</button>
+            <button type="button" data-src="upload">Upload</button>
+            <button type="button" data-src="own">Write my own</button>
+          </div>
+          <div class="src on" data-for="draft">
+            <p class="hint" style="margin-top:0">Lumo drafts questions from the job description and your values. These are examples.</p>
+            <button type="button" class="btn sec sm" id="draft1" style="margin-top:12px">Redraft examples</button>
+          </div>
+          <div class="src" data-for="upload">
+            <input class="in" type="file" id="file1" accept=".csv,.txt">
+            <p class="hint">CSV or text file, one question per row: <code>Question, A, B, C, D, Answer</code>. The answer is a letter, A to D. Your file stays in this browser.</p>
+          </div>
+          <div class="src" data-for="own">
+            <label class="field" for="q1" style="margin-top:0">Question</label>
+            <textarea class="ta" id="q1" placeholder="e.g. Which metric best shows billing accuracy?"></textarea>
+            <div class="opts" id="opts1">
+              <label class="opt"><input type="radio" name="ans1" value="0" checked><input class="in" placeholder="Option A"></label>
+              <label class="opt"><input type="radio" name="ans1" value="1"><input class="in" placeholder="Option B"></label>
+              <label class="opt"><input type="radio" name="ans1" value="2"><input class="in" placeholder="Option C"></label>
+              <label class="opt"><input type="radio" name="ans1" value="3"><input class="in" placeholder="Option D"></label>
+            </div>
+            <p class="hint" style="margin:0 0 12px">Select the circle next to the correct answer.</p>
+            <button type="button" class="btn sec sm" id="add1">Add question</button>
+            <span class="hint" id="msg1" role="status" style="margin-left:10px"></span>
+          </div>
+          <ol class="qlist" id="list1"></ol>
+        </div>
+
+        <div class="card" data-part="2">
+          <span class="pill v">Part 2</span>
+          <h3>Voice interview</h3>
+          <p class="sub">Lumo asks these out loud, listens and follows up on vague answers.</p>
+          <label class="field" for="r2">Time for this part <output id="t2">20 min</output></label>
+          <input type="range" id="r2" min="5" max="45" step="5" value="20">
+          <div class="tabs" role="group" aria-label="Part 2 question source">
+            <button type="button" class="on" data-src="draft">Lumo drafts</button>
+            <button type="button" data-src="upload">Upload</button>
+            <button type="button" data-src="own">Write my own</button>
+          </div>
+          <div class="src on" data-for="draft">
+            <p class="hint" style="margin-top:0">Lumo drafts open questions that probe your values. These are examples.</p>
+            <button type="button" class="btn sec sm" id="draft2" style="margin-top:12px">Redraft examples</button>
+          </div>
+          <div class="src" data-for="upload">
+            <input class="in" type="file" id="file2" accept=".csv,.txt">
+            <p class="hint">Text or CSV file with one question per line. Your file stays in this browser.</p>
+          </div>
+          <div class="src" data-for="own">
+            <label class="field" for="q2" style="margin-top:0">Question</label>
+            <textarea class="ta" id="q2" placeholder="e.g. Tell me about a time you put a customer first."></textarea>
+            <div style="margin-top:12px"><button type="button" class="btn sec sm" id="add2">Add question</button><span class="hint" id="msg2" role="status" style="margin-left:10px"></span></div>
+          </div>
+          <ol class="qlist" id="list2"></ol>
+        </div>
+      </div>
+
+      <aside class="summary card" aria-label="Session summary">
+        <h3>Your session</h3>
+        <p class="sub" id="sumRole">Operations Analyst</p>
+        <div class="big"><span id="total">35</span><span style="font-size:20px;font-weight:600;color:var(--muted)"> min</span></div>
+        <div class="bar" aria-hidden="true"><i class="b1" id="bar1"></i><i class="b2" id="bar2"></i></div>
+        <div class="legend"><span style="--c:#0071E3">Part 1 · <b id="l1">15</b> min</span><span style="--c:#7C5CE0">Part 2 · <b id="l2">20</b> min</span></div>
+        <div class="stats">
+          <div class="stat"><span>Objective questions</span><span id="n1">0</span></div>
+          <div class="stat"><span>Time per objective question</span><span id="pq1">-</span></div>
+          <div class="stat"><span>Voice questions</span><span id="n2">0</span></div>
+          <div class="stat"><span>Time per voice question</span><span id="pq2">-</span></div>
+          <div class="stat"><span>Open window</span><span id="win">Not set</span></div>
+        </div>
+        <div class="warn" id="warn" role="status"></div>
+        <button type="button" class="btn" id="preview">Preview as a candidate</button>
+        <p class="hint" style="text-align:center">A demo only. Nothing is saved or sent.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<dialog id="pvd" aria-label="Candidate preview"><div class="pv" id="pv"></div></dialog>
+
+<section id="fairness" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">Fairness and privacy</p>
+    <h2>Lumo suggests.<br>People decide.</h2>
+    <p class="lead" style="max-width:640px;margin-top:18px">Hiring is high stakes, so Lumo is built to be explainable, consistent and honest with candidates.</p>
+    <div class="rules">
+      <div class="rule"><b>A person makes every decision</b><span>Lumo never rejects or advances a candidate on its own.</span></div>
+      <div class="rule"><b>Same questions for everyone</b><span>Every candidate for a role gets the same set, so comparisons are fair.</span></div>
+      <div class="rule"><b>Job-related signals only</b><span>Name, age, gender, accent, voice and background are never used in scoring.</span></div>
+      <div class="rule"><b>Always disclosed</b><span>Candidates hear that Lumo is an AI and consent before recording begins.</span></div>
+      <div class="rule"><b>Candidates keep control</b><span>They can review their answers, ask for a human, or delete their recording.</span></div>
+      <div class="rule"><b>Auditable by design</b><span>Every score and every human decision is logged, with bias testing before each release.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Questions</p>
+      <h2>Good to know.</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>Does Lumo decide who gets hired?</summary><p>No. Lumo scores answers and ranks candidates as a starting point. A person reads each scorecard and decides whether to advance, hold or decline.</p></details>
+      <details><summary>What do candidates need to take part?</summary><p>Only a link and a phone or laptop with a microphone. There is no account to create, and they can type their answers if they prefer.</p></details>
+      <details><summary>How does Lumo score a candidate?</summary><p>It compares each answer with the scorecard you set up: skills from the job description and the company values you chose. Each score links to the quote that supports it.</p></details>
+      <details><summary>How do you keep scoring fair?</summary><p>Scores use only what candidates say, never name, age, gender, accent or background. We test for adverse impact, keep an audit log and plan an independent bias audit before launch.</p></details>
+      <details><summary>Can candidates opt out of the AI interview?</summary><p>Yes. We are designing for candidates to ask for a human interviewer, and for them to delete their recording at any time.</p></details>
+      <details><summary>Can I use my own questions?</summary><p>Yes. For both parts you can use Lumo's drafts, upload a file, or write questions yourself, and you choose how much time each part gets.</p></details>
+      <details><summary>When can I try it?</summary><p>Lumo is in design and private alpha planning. Join the early access list and we will be in touch.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="join" class="alt cta">
+  <div class="wrap">
+    <svg class="orb" width="72" height="72" viewBox="0 0 1214 1214" aria-hidden="true"><circle cx="607" cy="607" r="602" fill="#0A0A0A"/><rect x="-75" y="-135" width="150" height="270" rx="75" transform="translate(663 418) rotate(-33)" fill="#fff"/><rect x="-55" y="-125" width="110" height="250" rx="55" transform="translate(945 275) rotate(-33)" fill="#fff"/></svg>
+    <h2>Meet Lumo.</h2>
+    <p class="lead" style="max-width:560px;margin:16px auto 0">Get early access and hire with evidence.</p>
+    <form class="form" id="join-form">
+      <label for="email" style="position:absolute;left:-9999px">Work email</label>
+      <input id="email" type="email" placeholder="Work email" required autocomplete="email">
+      <button class="btn" type="submit">Join the list</button>
+    </form>
+    <p class="note" id="note" role="status"></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="fine">Lumo is an AI interviewer. It provides suggestions and evidence to support human hiring decisions and does not make employment decisions. This page describes a product in design; features and availability may change.</p>
+    <div class="foot">
+      <span>&copy; 2026 Lumo</span>
+      <div class="links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var LET = ['A', 'B', 'C', 'D'];
+  var SAMPLE1 = [
+    { q: 'Which figure best shows how accurate billing is?', o: ['Invoices sent per week', 'Share of invoices with no corrections', 'Average invoice size', 'Number of clients'], a: 1 },
+    { q: 'A report keeps breaking every Friday. What is the best first step?', o: ['Ask someone else to fix it', 'Find the root cause before changing anything', 'Rebuild it from scratch', 'Ignore it until month end'], a: 1 },
+    { q: 'A customer is unhappy about a late delivery. What should you do first?', o: ['Explain whose fault it was', 'Acknowledge it and say what you will do next', 'Offer a refund immediately', 'Wait for them to calm down'], a: 1 }
+  ];
+  var SAMPLE2 = [
+    'Why does this role interest you?',
+    'Tell me about a time you owned a problem from start to finish.',
+    'How do you handle feedback you disagree with?',
+    'Describe a time you put a customer first.'
+  ];
+  var S = { p1: SAMPLE1.slice(), p2: SAMPLE2.slice() };
+
+  // tabs
+  $$('.card[data-part]').forEach(function (card) {
+    $$('.tabs button', card).forEach(function (b) {
+      b.addEventListener('click', function () {
+        $$('.tabs button', card).forEach(function (x) { x.classList.toggle('on', x === b); });
+        $$('.src', card).forEach(function (s) { s.classList.toggle('on', s.getAttribute('data-for') === b.getAttribute('data-src')); });
+      });
+    });
+  });
+
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function render() {
+    var l1 = $('#list1'), l2 = $('#list2');
+    l1.textContent = ''; l2.textContent = '';
+    if (!S.p1.length) l1.appendChild(el('li', 'empty', 'No questions yet.'));
+    S.p1.forEach(function (it, i) {
+      var li = el('li'), n = el('span', 'qn', i + 1), b = el('div', 'qb', it.q);
+      var s = el('small'); s.appendChild(document.createTextNode(it.o.map(function (o, k) { return k === it.a ? '' : LET[k] + '. ' + o; }).filter(Boolean).join('   ')));
+      var ans = el('small'); var bold = el('b', null, LET[it.a] + '. ' + it.o[it.a]); ans.appendChild(document.createTextNode('Correct: ')); ans.appendChild(bold);
+      b.appendChild(ans); b.appendChild(s);
+      var x = el('button', 'x', '×'); x.type = 'button'; x.setAttribute('aria-label', 'Remove question ' + (i + 1));
+      x.addEventListener('click', function () { S.p1.splice(i, 1); update(); });
+      li.appendChild(n); li.appendChild(b); li.appendChild(x); l1.appendChild(li);
+    });
+    if (!S.p2.length) l2.appendChild(el('li', 'empty', 'No questions yet.'));
+    S.p2.forEach(function (q, i) {
+      var li = el('li'), n = el('span', 'qn', i + 1), b = el('div', 'qb', q);
+      var x = el('button', 'x', '×'); x.type = 'button'; x.setAttribute('aria-label', 'Remove question ' + (i + 1));
+      x.addEventListener('click', function () { S.p2.splice(i, 1); update(); });
+      li.appendChild(n); li.appendChild(b); li.appendChild(x); l2.appendChild(li);
+    });
+  }
+
+  function fmt(m) { return m >= 1 ? (Math.round(m * 10) / 10) + ' min' : Math.round(m * 60) + ' sec'; }
+
+  function update() {
+    var m1 = +$('#r1').value, m2 = +$('#r2').value, tot = m1 + m2;
+    $('#t1').textContent = m1 + ' min'; $('#t2').textContent = m2 + ' min';
+    $('#total').textContent = tot; $('#l1').textContent = m1; $('#l2').textContent = m2;
+    $('#bar1').style.width = (m1 / tot * 100) + '%'; $('#bar2').style.width = (m2 / tot * 100) + '%';
+    $('#n1').textContent = S.p1.length; $('#n2').textContent = S.p2.length;
+    $('#pq1').textContent = S.p1.length ? fmt(m1 / S.p1.length) : '-';
+    $('#pq2').textContent = S.p2.length ? fmt(m2 / S.p2.length) : '-';
+    $('#sumRole').textContent = $('#role').value.trim() || 'Untitled role';
+    var f = $('#from').value, to = $('#to').value;
+    $('#win').textContent = f && to ? f + ' to ' + to : (f ? 'From ' + f : (to ? 'Until ' + to : 'Not set'));
+    var w = [];
+    if (S.p1.length && m1 / S.p1.length < 0.5) w.push('Part 1 gives under 30 seconds per question. Add time or remove questions.');
+    if (S.p2.length && m2 / S.p2.length < 2) w.push('Part 2 gives under 2 minutes per voice question, which leaves little room for follow-ups.');
+    if (f && to && to < f) w.push('The window ends before it starts.');
+    var wn = $('#warn'); wn.textContent = w.join(' '); wn.classList.toggle('on', w.length > 0);
+    render();
+  }
+
+  // csv
+  function parseCSV(text) {
+    var rows = [], row = [], cur = '', q = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (q) { if (c === '"') { if (text[i + 1] === '"') { cur += '"'; i++; } else q = false; } else cur += c; }
+      else if (c === '"') q = true;
+      else if (c === ',') { row.push(cur); cur = ''; }
+      else if (c === '\n' || c === '\r') { if (c === '\r' && text[i + 1] === '\n') i++; row.push(cur); rows.push(row); row = []; cur = ''; }
+      else cur += c;
+    }
+    if (cur || row.length) { row.push(cur); rows.push(row); }
+    return rows.map(function (r) { return r.map(function (x) { return x.trim(); }); }).filter(function (r) { return r.some(Boolean); });
+  }
+  function readFile(input, cb, msg) {
+    var f = input.files[0]; if (!f) return;
+    if (f.size > 1024 * 1024) { msg('That file is too large. Keep it under 1 MB.'); return; }
+    var r = new FileReader();
+    r.onload = function () { cb(String(r.result)); };
+    r.readAsText(f);
+  }
+  function note(id) { return function (m) { var e = $(id); e.textContent = m; }; }
+
+  $('#file1').addEventListener('change', function () {
+    var add = []; var bad = 0;
+    readFile(this, function (txt) {
+      var rows = parseCSV(txt);
+      if (rows.length && /^question/i.test(rows[0][0])) rows.shift();
+      rows.forEach(function (r) {
+        if (r.length < 6) { bad++; return; }
+        var a = LET.indexOf(r[5].toUpperCase().charAt(0));
+        if (a < 0 || r.slice(1, 5).some(function (x) { return !x; })) { bad++; return; }
+        add.push({ q: r[0], o: r.slice(1, 5), a: a });
+      });
+      if (add.length) { S.p1 = add; $$('.card[data-part="1"] .tabs button').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-src') === 'upload'); }); }
+      alert(add.length ? 'Loaded ' + add.length + ' question' + (add.length === 1 ? '' : 's') + (bad ? '. Skipped ' + bad + ' row' + (bad === 1 ? '' : 's') + ' that did not match the format.' : '.') : 'No questions found. Each row needs: Question, A, B, C, D, Answer.');
+      update();
+    }, function (m) { alert(m); });
+  });
+  $('#file2').addEventListener('change', function () {
+    readFile(this, function (txt) {
+      var rows = parseCSV(txt).map(function (r) { return r[0]; }).filter(Boolean);
+      if (rows.length && /^question/i.test(rows[0])) rows.shift();
+      if (rows.length) S.p2 = rows;
+      alert(rows.length ? 'Loaded ' + rows.length + ' question' + (rows.length === 1 ? '' : 's') + '.' : 'No questions found in that file.');
+      update();
+    }, function (m) { alert(m); });
+  });
+
+  // write own
+  $('#add1').addEventListener('click', function () {
+    var q = $('#q1').value.trim(), ins = $$('#opts1 .in'), o = ins.map(function (i) { return i.value.trim(); });
+    var a = +($('#opts1 input[type=radio]:checked') || { value: 0 }).value, m = $('#msg1');
+    if (!q) { m.textContent = 'Write the question first.'; return; }
+    if (o.some(function (x) { return !x; })) { m.textContent = 'Fill in all four options.'; return; }
+    S.p1.push({ q: q, o: o, a: a });
+    $('#q1').value = ''; ins.forEach(function (i) { i.value = ''; }); m.textContent = 'Added.'; update();
+  });
+  $('#add2').addEventListener('click', function () {
+    var q = $('#q2').value.trim(), m = $('#msg2');
+    if (!q) { m.textContent = 'Write the question first.'; return; }
+    S.p2.push(q); $('#q2').value = ''; m.textContent = 'Added.'; update();
+  });
+  $('#draft1').addEventListener('click', function () { S.p1 = SAMPLE1.slice(); update(); });
+  $('#draft2').addEventListener('click', function () { S.p2 = SAMPLE2.slice(); update(); });
+  ['#r1', '#r2', '#role', '#from', '#to'].forEach(function (s) { $(s).addEventListener('input', update); });
+
+  // preview
+  var dlg = $('#pvd'), pv = $('#pv'), timer = null;
+  function stopTimer() { if (timer) { clearInterval(timer); timer = null; } }
+  function mmss(s) { return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+  var ORB = '<svg class="orb-lg" width="72" height="72" viewBox="0 0 1214 1214" aria-hidden="true"><circle cx="607" cy="607" r="602" fill="#0A0A0A"/><rect x="-75" y="-135" width="150" height="270" rx="75" transform="translate(663 418) rotate(-33)" fill="#fff"/><rect x="-55" y="-125" width="110" height="250" rx="55" transform="translate(945 275) rotate(-33)" fill="#fff"/></svg>';
+
+  function open() {
+    var m1 = +$('#r1').value, m2 = +$('#r2').value, role = $('#role').value.trim() || 'this role';
+    var answers = [], i1 = 0, i2 = 0;
+    function shell(top, prog, body) {
+      stopTimer(); pv.textContent = '';
+      var t = el('div', 'pv-top'); var l = el('span'); l.innerHTML = top; t.appendChild(l);
+      var c = el('button', null, 'Close'); c.type = 'button'; c.addEventListener('click', function () { stopTimer(); dlg.close(); }); t.appendChild(c);
+      var p = el('div', 'pv-prog'), pi = el('i'); pi.style.width = prog + '%'; p.appendChild(pi);
+      pv.appendChild(t); pv.appendChild(p); pv.appendChild(body);
+    }
+    function intro() {
+      var b = el('div', 'grow'); b.innerHTML = ORB;
+      b.appendChild(el('h4', null, 'Interview for ' + role));
+      b.appendChild(el('p', 'd', 'Lumo is an AI. This interview has two parts and takes about ' + (m1 + m2) + ' minutes. A person reviews your answers and makes the decision.'));
+      b.appendChild(el('p', 'd', 'Part 1: ' + S.p1.length + ' multiple choice question' + (S.p1.length === 1 ? '' : 's') + ' (' + m1 + ' min)'));
+      b.appendChild(el('p', 'd', 'Part 2: voice interview, ' + S.p2.length + ' question' + (S.p2.length === 1 ? '' : 's') + ' (' + m2 + ' min)'));
+      var w = el('div'); w.style.display = 'flex'; w.style.flexDirection = 'column'; w.appendChild(b);
+      var go = el('button', 'btn', 'I agree, start'); go.type = 'button'; go.addEventListener('click', function () { S.p1.length ? part1() : part2intro(); });
+      w.appendChild(go); w.style.flex = '1'; shell('Invitation', 0, w);
+    }
+    function withTimer(secs, label, onEnd) {
+      var left = secs, out = pv.querySelector('.timer');
+      timer = setInterval(function () { left--; if (out) out.textContent = label + ' ' + mmss(Math.max(left, 0)); if (left <= 0) { stopTimer(); onEnd(); } }, 1000);
+    }
+    function part1() {
+      var it = S.p1[i1], sel = -1, w = el('div'); w.style.cssText = 'display:flex;flex-direction:column;flex:1';
+      w.appendChild(el('h4', null, it.q));
+      var list = el('div', 'grow');
+      it.o.forEach(function (o, k) {
+        var c = el('button', 'choice'); c.type = 'button';
+        c.appendChild(el('b', null, LET[k])); c.appendChild(document.createTextNode(o));
+        c.addEventListener('click', function () { sel = k; $$('.choice', list).forEach(function (x, j) { x.classList.toggle('sel', j === k); }); nx.disabled = false; });
+        list.appendChild(c);
+      });
+      w.appendChild(list);
+      var nx = el('button', 'btn', i1 === S.p1.length - 1 ? 'Finish part 1' : 'Next'); nx.type = 'button'; nx.disabled = true;
+      nx.addEventListener('click', function () { answers.push(sel === it.a); i1++; i1 < S.p1.length ? part1() : part2intro(); });
+      w.appendChild(nx);
+      shell('Part 1 of 2 &middot; Question ' + (i1 + 1) + ' of ' + S.p1.length + ' &middot; <span class="timer"></span>', (i1 / S.p1.length) * 50, w);
+      if (i1 === 0 && !part1.t) { part1.t = 1; }
+      var secs = Math.round(m1 * 60 - (i1 * m1 * 60 / S.p1.length)); var o = pv.querySelector('.timer'); o.textContent = 'Left ' + mmss(secs);
+      withTimer(secs, 'Left', function () { while (answers.length < S.p1.length) answers.push(false); part2intro(); });
+    }
+    function part2intro() {
+      stopTimer();
+      var w = el('div'); w.style.cssText = 'display:flex;flex-direction:column;flex:1;text-align:center';
+      var b = el('div', 'grow'); b.innerHTML = ORB;
+      b.appendChild(el('h4', null, 'Part 2: a conversation with Lumo'));
+      b.appendChild(el('p', 'd', 'Lumo will ask you questions out loud. Answer in your own words. You can repeat or skip a question at any time.'));
+      w.appendChild(b);
+      var go = el('button', 'btn', 'Start voice interview'); go.type = 'button'; go.addEventListener('click', function () { S.p2.length ? part2() : done(); });
+      w.appendChild(go); shell('Part 2 of 2', 50, w);
+    }
+    function part2() {
+      var w = el('div'); w.style.cssText = 'display:flex;flex-direction:column;flex:1;text-align:center';
+      var b = el('div', 'grow'); b.innerHTML = ORB;
+      var wv = el('div', 'wave'); for (var k = 0; k < 15; k++) wv.appendChild(el('i'));
+      b.appendChild(wv);
+      b.appendChild(el('p', 'd', 'LUMO IS SPEAKING'));
+      b.appendChild(el('h4', null, S.p2[i2]));
+      w.appendChild(b);
+      var nx = el('button', 'btn', i2 === S.p2.length - 1 ? 'Finish interview' : 'Next question'); nx.type = 'button';
+      nx.addEventListener('click', function () { i2++; i2 < S.p2.length ? part2() : done(); });
+      w.appendChild(nx);
+      shell('Part 2 of 2 &middot; Question ' + (i2 + 1) + ' of ' + S.p2.length + ' &middot; <span class="timer"></span>', 50 + (i2 / S.p2.length) * 50, w);
+      var secs = Math.round(m2 * 60 - (i2 * m2 * 60 / S.p2.length)); pv.querySelector('.timer').textContent = 'Left ' + mmss(secs);
+      withTimer(secs, 'Left', done);
+    }
+    function done() {
+      stopTimer();
+      var score = answers.filter(Boolean).length;
+      var w = el('div'); w.style.cssText = 'display:flex;flex-direction:column;flex:1;text-align:center';
+      var b = el('div', 'grow'); b.innerHTML = ORB;
+      b.appendChild(el('h4', null, 'Thank you'));
+      b.appendChild(el('p', 'd', 'Your interview is complete. The hiring team will review your answers.'));
+      if (S.p1.length) b.appendChild(el('p', 'd', 'Demo result, Part 1: ' + score + ' of ' + S.p1.length + ' correct. This feeds the role skills score.'));
+      w.appendChild(b);
+      var again = el('button', 'btn', 'Close'); again.type = 'button'; again.addEventListener('click', function () { dlg.close(); });
+      w.appendChild(again); shell('Complete', 100, w);
+    }
+    intro(); if (!dlg.open) dlg.showModal();
+  }
+  $('#preview').addEventListener('click', function () {
+    if (!S.p1.length && !S.p2.length) { alert('Add at least one question first.'); return; }
+    open();
+  });
+  dlg.addEventListener('close', stopTimer);
+
+  update();
+
+  // sign-up placeholder
+  document.getElementById('join-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('note').textContent = 'Thanks. The sign-up is not connected yet, so nothing was saved.';
+  });
+})();
+</script>
+</body>
+</html>
