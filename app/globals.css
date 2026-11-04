@@ -658,33 +658,8 @@ details p {
 .cta .orb {
   margin: 0 auto 28px;
 }
-.form {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 34px;
-  flex-wrap: wrap;
-}
-.form input {
-  height: 44px;
-  min-width: 280px;
-  border-radius: 980px;
-  border: 1px solid var(--line);
-  background: var(--bg-alt);
-  color: var(--ink);
-  padding: 0 20px;
-  font-size: 17px;
-  font-family: inherit;
-}
-.form input:focus {
-  outline: 2px solid var(--blue);
-  outline-offset: 1px;
-}
-.note {
-  margin-top: 14px;
-  font-size: 14px;
-  color: var(--muted);
-  min-height: 20px;
+.cta .hero-cta {
+  margin-top: 30px;
 }
 
 footer {
@@ -1171,16 +1146,59 @@ dialog::backdrop {
   position: relative;
   z-index: 11;
   outline: 3px solid var(--blue);
-  outline-offset: 5px;
-  border-radius: 14px;
+  outline-offset: 6px;
+  border-radius: 18px;
+  box-shadow: 0 0 0 8px rgba(0, 113, 227, 0.12);
+  transition:
+    outline-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 .tour-dialog {
+  position: fixed;
+  margin: 0;
   padding: 0;
-  width: min(480px, calc(100% - 32px));
-  background: var(--card);
+  width: min(440px, calc(100% - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: visible;
+  color: var(--ink);
+  background: rgba(250, 251, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow:
+    0 24px 80px rgba(10, 20, 40, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  backdrop-filter: blur(28px) saturate(180%);
+}
+.tour-dialog::backdrop {
+  background: radial-gradient(
+    var(--tour-spotlight, ellipse 120px 60px at 50% 50%),
+    transparent 90%,
+    rgba(12, 18, 30, 0.42) 100%
+  );
+}
+.tour-dialog::before {
+  content: "";
+  position: absolute;
+  left: var(--tour-arrow-x, 50%);
+  width: 14px;
+  height: 14px;
+  background: rgba(250, 251, 255, 0.92);
+  transform: translateX(-50%) rotate(45deg);
+}
+.tour-dialog[data-placement="below"]::before {
+  top: -8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.78);
+  border-left: 1px solid rgba(255, 255, 255, 0.78);
+}
+.tour-dialog[data-placement="above"]::before {
+  bottom: -8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.78);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.78);
 }
 .tour-body {
   padding: 28px;
+  overflow-y: auto;
+  max-height: calc(100dvh - 34px);
 }
 .tour-body h3 {
   margin: 8px 0;
@@ -1193,6 +1211,7 @@ dialog::backdrop {
   font-size: 13px;
   font-weight: 600;
   color: var(--blue);
+  letter-spacing: 0.08em;
 }
 .tour-actions {
   display: flex;
@@ -1228,9 +1247,28 @@ dialog::backdrop {
 .message-actions a[hidden] {
   display: none;
 }
-.local-remove {
-  margin-top: 8px;
-  font-size: 13px;
+@media (prefers-color-scheme: dark) {
+  .tour-dialog {
+    background: rgba(35, 37, 44, 0.78);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow:
+      0 24px 80px rgba(0, 0, 0, 0.48),
+      inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  }
+  .tour-dialog::before {
+    background: rgba(35, 37, 44, 0.92);
+  }
+  .tour-dialog[data-placement="below"]::before {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .tour-dialog[data-placement="above"]::before {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-target {
+    transition: none;
+  }
 }
 @media (max-width: 560px) {
   .tour-body {

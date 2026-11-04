@@ -76,43 +76,55 @@ export function mountInteractions() {
 
     var tourSteps = [
       {
-        target: ".hero",
+        target: "#start-now-hero",
         title: "Welcome to Lumo",
-        copy: "A focused first-round interview prototype. This tour shows how to explore the product and try the builder.",
+        copy: "This guided tour shows how to set up a role, shape an interview and preview the candidate experience.",
       },
       {
         target: "#how .steps",
         title: "A consistent process",
-        copy: "Set up one role, invite candidates to the same interview, then let a person review the evidence and decide.",
+        copy: "Every candidate gets the same structured interview. A person reviews the evidence and makes every hiring decision.",
       },
       {
-        target: "#features .grid",
-        title: "Evidence over guesswork",
-        copy: "The product is designed around job-related criteria, supporting quotes and human review.",
+        target: "#role",
+        title: "Start with the role",
+        copy: "Name the role you are hiring for. The role and schedule shape the interview candidates will receive.",
       },
       {
-        target: "#builder .card",
-        title: "Build an interview",
-        copy: "Set a role and availability window, choose the time per part, then draft questions, upload a file or write questions yourself.",
+        target: "#from",
+        title: "Set the interview window",
+        copy: "Choose when candidates can begin and when the invite expires. The session summary updates as you make changes.",
+      },
+      {
+        target: "#builder [data-part='1'] .tabs",
+        title: "Shape the first part",
+        copy: "Choose drafted questions, upload your own or write them yourself. Part 1 uses short objective questions.",
+      },
+      {
+        target: "#builder [data-part='2'] #r2",
+        title: "Set up the conversation",
+        copy: "Choose how long the voice interview should take, then select or write the questions Lumo will ask.",
+      },
+      {
+        target: "#builder .summary",
+        title: "Keep the setup in view",
+        copy: "The session summary brings together the role, total time, question counts and interview window.",
       },
       {
         target: "#preview",
-        title: "Preview the candidate flow",
-        copy: "Try the multiple-choice and typed-response demo. It does not record audio or send answers.",
-      },
-      {
-        target: "#join .form",
-        title: "Save local interest",
-        copy: "The early-access form stores your email in this browser only. There is no account or mailing-list service connected.",
+        title: "Try the candidate preview",
+        copy: "Preview the flow before sharing an interview. This demo does not record audio or send answers anywhere.",
       },
     ];
     var tourDialog = el("dialog", "tour-dialog");
     tourDialog.setAttribute("aria-labelledby", "tour-title");
+    tourDialog.setAttribute("aria-describedby", "tour-copy");
     var tourBody = el("div", "tour-body");
     var tourProgress = el("div", "tour-progress");
     var tourTitle = el("h3");
     tourTitle.id = "tour-title";
     var tourCopy = el("p");
+    tourCopy.id = "tour-copy";
     var tourActions = el("div", "tour-actions");
     var tourExit = el("button", "text-button", "Exit tour");
     tourExit.type = "button";
@@ -134,6 +146,49 @@ export function mountInteractions() {
     var activeTourTarget = null,
       tourIndex = 0;
 
+    function positionTour() {
+      if (!tourDialog.open || !activeTourTarget) return;
+      var rect = activeTourTarget.getBoundingClientRect();
+      var panel = tourDialog.getBoundingClientRect();
+      var gap = 18;
+      var margin = 16;
+      if (!panel.width || !panel.height) return;
+      var belowTop = rect.bottom + gap;
+      var aboveTop = rect.top - panel.height - gap;
+      var placeBelow =
+        belowTop + panel.height <= window.innerHeight - margin ||
+        aboveTop < margin;
+      var top = placeBelow ? belowTop : aboveTop;
+      var left = rect.left + rect.width / 2 - panel.width / 2;
+      left = Math.max(
+        margin,
+        Math.min(left, window.innerWidth - panel.width - margin),
+      );
+      top = Math.max(
+        margin,
+        Math.min(top, window.innerHeight - panel.height - margin),
+      );
+      tourDialog.dataset.placement = placeBelow ? "below" : "above";
+      tourDialog.style.setProperty(
+        "--tour-arrow-x",
+        Math.max(24, Math.min(rect.left + rect.width / 2 - left, panel.width - 24)) +
+          "px",
+      );
+      tourDialog.style.setProperty(
+        "--tour-spotlight",
+        "ellipse " +
+          Math.max(120, Math.min(220, rect.width / 2 + 20)) +
+          "px " +
+          Math.max(60, Math.min(130, rect.height / 2 + 18)) +
+          "px at " +
+          (rect.left + rect.width / 2) +
+          "px " +
+          (rect.top + rect.height / 2) +
+          "px",
+      );
+      tourDialog.style.left = left + "px";
+      tourDialog.style.top = top + "px";
+    }
     function showTourStep() {
       var step = tourSteps[tourIndex];
       if (activeTourTarget) activeTourTarget.classList.remove("tour-target");
@@ -141,7 +196,9 @@ export function mountInteractions() {
       if (activeTourTarget) {
         activeTourTarget.classList.add("tour-target");
         activeTourTarget.scrollIntoView({
-          behavior: "smooth",
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+            ? "auto"
+            : "smooth",
           block: "center",
         });
       }
@@ -152,6 +209,8 @@ export function mountInteractions() {
       tourBack.disabled = tourIndex === 0;
       tourNext.textContent =
         tourIndex === tourSteps.length - 1 ? "Finish" : "Next";
+      window.requestAnimationFrame(positionTour);
+      window.setTimeout(positionTour, 450);
     }
     function startTour() {
       tourIndex = 0;
@@ -162,7 +221,9 @@ export function mountInteractions() {
       if (activeTourTarget) activeTourTarget.classList.remove("tour-target");
       activeTourTarget = null;
     }
-    $("#start-tour").addEventListener("click", startTour);
+    $$("[data-start-tour]").forEach(function (button) {
+      button.addEventListener("click", startTour);
+    });
     tourExit.addEventListener("click", function () {
       tourDialog.close();
     });
@@ -181,6 +242,8 @@ export function mountInteractions() {
       showTourStep();
     });
     tourDialog.addEventListener("close", closeTour);
+    window.addEventListener("resize", positionTour);
+    window.addEventListener("scroll", positionTour, { passive: true });
 
     var infoDialog = el("dialog", "message-dialog");
     infoDialog.setAttribute("aria-labelledby", "info-title");
@@ -190,8 +253,8 @@ export function mountInteractions() {
     var infoActions = el("div", "message-actions");
     var infoClose = el("button", "text-button", "Close");
     infoClose.type = "button";
-    var infoLink = el("a", "btn small", "Get early access");
-    infoLink.href = "#join";
+    var infoLink = el("a", "btn small", "Go to interview builder");
+    infoLink.href = "#builder";
     infoActions.appendChild(infoClose);
     infoActions.appendChild(infoLink);
     infoDialog.appendChild(infoTitle);
@@ -213,7 +276,7 @@ export function mountInteractions() {
     $("#signin").addEventListener("click", function () {
       showInfo(
         "Sign-in is not available yet",
-        "This product preview does not have accounts. You can try the interview builder or save your early-access interest locally in this browser.",
+        "This product preview does not have accounts. Start now to explore the interview builder and candidate preview.",
         true,
       );
     });
@@ -876,47 +939,5 @@ export function mountInteractions() {
 
     update();
 
-    var joinForm = $("#join-form"),
-      emailInput = $("#email"),
-      noteMessage = $("#note");
-    var removeInterest = $("#remove-interest");
-    try {
-      var savedEmail = window.localStorage.getItem("lumo-early-access-email");
-      if (savedEmail) {
-        emailInput.value = savedEmail;
-        noteMessage.textContent = "Your interest is saved in this browser.";
-        removeInterest.hidden = false;
-      }
-    } catch (error) {
-      noteMessage.textContent =
-        "This browser blocked local storage, so an email cannot be saved here.";
-    }
-    joinForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      try {
-        window.localStorage.setItem(
-          "lumo-early-access-email",
-          emailInput.value.trim(),
-        );
-        noteMessage.textContent =
-          "Your interest is saved in this browser only. It was not sent to Lumo.";
-        removeInterest.hidden = false;
-      } catch (error) {
-        noteMessage.textContent =
-          "Your browser blocked local storage. Your email was not saved or sent.";
-      }
-    });
-    removeInterest.addEventListener("click", function () {
-      try {
-        window.localStorage.removeItem("lumo-early-access-email");
-        emailInput.value = "";
-        noteMessage.textContent =
-          "Your saved interest was removed from this browser.";
-        removeInterest.hidden = true;
-      } catch (error) {
-        noteMessage.textContent =
-          "This browser blocked local storage, so the saved value could not be removed.";
-      }
-    });
   })();
 }

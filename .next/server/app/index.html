@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/3enpliegijnj6.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/0j1we3cwg31qe.js"/><script src="/_next/static/chunks/0m3mby5pxg4oz.js" async=""></script><script src="/_next/static/chunks/23e6jep2anmtk.js" async=""></script><script src="/_next/static/chunks/turbopack-2u1d16houkiyo.js" async=""></script><script src="/_next/static/chunks/3qfy96eoyh-ek.js" async=""></script><script src="/_next/static/chunks/0bf4vplm4vbei.js" async=""></script><title>Lumo: Every candidate, understood.</title><meta name="description" content="Lumo interviews job candidates by voice and scores them against your company values and the job description. A person makes every decision."/><script src="/_next/static/chunks/0cz1d0mv5g_q7.js" noModule=""></script></head><body><div hidden=""><!--$--><!--/$--></div><div id="lumo-app">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/060412s-dm4vd.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/0j1we3cwg31qe.js"/><script src="/_next/static/chunks/0m3mby5pxg4oz.js" async=""></script><script src="/_next/static/chunks/23e6jep2anmtk.js" async=""></script><script src="/_next/static/chunks/turbopack-2u1d16houkiyo.js" async=""></script><script src="/_next/static/chunks/3qfy96eoyh-ek.js" async=""></script><script src="/_next/static/chunks/3mlfgyzhf_a9h.js" async=""></script><title>Lumo: Every candidate, understood.</title><meta name="description" content="Lumo interviews job candidates by voice and scores them against your company values and the job description. A person makes every decision."/><script src="/_next/static/chunks/0cz1d0mv5g_q7.js" noModule=""></script></head><body><div hidden=""><!--$--><!--/$--></div><div id="lumo-app">
 
 <nav aria-label="Main">
   <div class="wrap nav-in">
@@ -15,7 +15,7 @@
     </div>
     <div class="nav-cta">
       <button class="text-button" type="button" id="signin">Sign in</button>
-      <a class="btn small" href="#join">Get early access</a>
+      <button class="btn small" type="button" data-start-tour="true">Start now</button>
     </div>
   </div>
 </nav>
@@ -27,9 +27,8 @@
     <h1>Every candidate,<br/>understood.</h1>
     <p class="lead">Lumo runs a two-part interview: quick objective questions, then a voice conversation. It scores each candidate against your values and the job description. You review a ranked shortlist, and you make every decision.</p>
     <div class="hero-cta">
-      <a class="btn" href="#join">Get early access</a>
-      <a class="btn ghost" href="#how">See how it works ›</a><button class="btn sec" type="button" id="start-tour">Take the product tour</button>
-      <button class="btn sec" type="button" id="start-tour">Take the product tour</button>
+      <button class="btn" type="button" id="start-now-hero" data-start-tour="true">Start now</button>
+      <a class="btn ghost" href="#how">See how it works ›</a>
     </div>
 
     <div class="stage">
@@ -139,28 +138,15 @@
         <div class="card">
           <h3>Role and schedule</h3>
           <p class="sub">Candidates can start any time inside this window.</p>
-          <label class="field" for="role-template">Start from a role template</label>
-          <select class="in" id="role-template">
-            <option value="operations">Operations Analyst</option>
-            <option value="frontend">Frontend Developer</option>
-            <option value="javascript">JavaScript Engineer</option>
-            <option value="react">React Engineer</option>
-            <option value="nextjs">Next.js Developer</option>
-            <option value="css">CSS &amp; UI Engineer</option>
-            <option value="fullstack">Full-stack Web Developer</option>
-            <option value="qa">Frontend QA Automation Engineer</option>
-          </select>
           <label class="field" for="role">Role</label>
           <input class="in" id="role" autoComplete="off" value="Operations Analyst"/>
-          <p class="hint">Skills in this template</p>
-          <div class="skills" id="skill-tags" aria-live="polite"></div>
           <div class="row2">
             <div><label class="field" for="from">Open from</label><input class="in" type="date" id="from"/></div>
             <div><label class="field" for="to">Open until</label><input class="in" type="date" id="to"/></div>
           </div>
         </div>
 
-        <div class="card" id="p1" data-part="1">
+        <div class="card" data-part="1">
           <span class="pill">Part 1</span>
           <h3>Objective questions</h3>
           <p class="sub">Multiple choice. Scored automatically and counted toward role skills.</p>
@@ -173,12 +159,11 @@
           </div>
           <div class="src on" data-for="draft">
             <p class="hint" style="margin-top:0">Lumo drafts questions from the job description and your values. These are examples.</p>
-            <button type="button" class="btn sec sm" id="draft1" style="margin-top:12px">Redraft examples</button>
+            <button type="button" class="btn sec sm" id="draft1" style="margin-top:12px">Restore sample questions</button>
           </div>
           <div class="src" data-for="upload">
             <input class="in" type="file" id="file1" accept=".csv,.txt"/>
             <p class="hint">CSV or text file, one question per row: <code>Question, A, B, C, D, Answer</code>. The answer is a letter, A to D. Your file stays in this browser.</p>
-            <p class="hint" id="file-msg1" role="status"></p>
           </div>
           <div class="src" data-for="own">
             <label class="field" for="q1" style="margin-top:0">Question</label>
@@ -196,7 +181,7 @@
           <ol class="qlist" id="list1"></ol>
         </div>
 
-        <div class="card" id="p2" data-part="2">
+        <div class="card" data-part="2">
           <span class="pill v">Part 2</span>
           <h3>Voice interview</h3>
           <p class="sub">Lumo asks these out loud, listens and follows up on vague answers.</p>
@@ -209,12 +194,11 @@
           </div>
           <div class="src on" data-for="draft">
             <p class="hint" style="margin-top:0">Lumo drafts open questions that probe your values. These are examples.</p>
-            <button type="button" class="btn sec sm" id="draft2" style="margin-top:12px">Redraft examples</button>
+            <button type="button" class="btn sec sm" id="draft2" style="margin-top:12px">Restore sample questions</button>
           </div>
           <div class="src" data-for="upload">
             <input class="in" type="file" id="file2" accept=".csv,.txt"/>
             <p class="hint">Text or CSV file with one question per line. Your file stays in this browser.</p>
-            <p class="hint" id="file-msg2" role="status"></p>
           </div>
           <div class="src" data-for="own">
             <label class="field" for="q2" style="margin-top:0">Question</label>
@@ -240,35 +224,13 @@
         </div>
         <div class="warn" id="warn" role="status"></div>
         <button type="button" class="btn" id="preview">Preview as a candidate</button>
-        <p class="hint" style="text-align:center">A demo only. Candidate answers stay in this preview and are not recorded or sent.</p>
+        <p class="hint" style="text-align:center">Interview answers stay in this preview. Nothing is sent to a server.</p>
       </aside>
     </div>
   </div>
 </section>
 
 <dialog id="pvd" aria-label="Candidate preview"><div class="pv" id="pv"></div></dialog>
-<dialog id="tour-dialog" class="tour-dialog" aria-labelledby="tour-title">
-  <div class="tour-body">
-    <span class="tour-progress" id="tour-progress"></span>
-    <h3 id="tour-title"></h3>
-    <p id="tour-copy"></p>
-    <div class="tour-actions">
-      <button class="text-button" type="button" id="tour-skip">Exit tour</button>
-      <div class="right">
-        <button class="btn sec sm" type="button" id="tour-back">Back</button>
-        <button class="btn sm" type="button" id="tour-next">Next</button>
-      </div>
-    </div>
-  </div>
-</dialog>
-<dialog id="message-dialog" class="message-dialog" aria-labelledby="message-title">
-  <h3 id="message-title"></h3>
-  <p id="message-copy"></p>
-  <div class="message-actions">
-    <button class="text-button" type="button" id="message-close">Close</button>
-    <a class="btn small" id="message-cta" href="#join">Get early access</a>
-  </div>
-</dialog>
 
 <section id="fairness" class="dark">
   <div class="wrap">
@@ -299,7 +261,7 @@
       <details><summary>How do you keep scoring fair?</summary><p>Scores use only what candidates say, never name, age, gender, accent or background. We test for adverse impact, keep an audit log and plan an independent bias audit before launch.</p></details>
       <details><summary>Can candidates opt out of the AI interview?</summary><p>Yes. We are designing for candidates to ask for a human interviewer, and for them to delete their recording at any time.</p></details>
       <details><summary>Can I use my own questions?</summary><p>Yes. For both parts you can use Lumo&#x27;s drafts, upload a file, or write questions yourself, and you choose how much time each part gets.</p></details>
-      <details><summary>When can I try it?</summary><p>Lumo is in design and private alpha planning. Join the early access list and we will be in touch.</p></details>
+      <details><summary>When can I try it?</summary><p>Lumo is in design and private alpha planning. Start now to explore the interview setup and candidate preview.</p></details>
     </div>
   </div>
 </section>
@@ -308,15 +270,7 @@
   <div class="wrap">
     <svg class="orb" width="72" height="72" viewBox="0 0 1214 1214" aria-hidden="true"><circle cx="607" cy="607" r="602" fill="#0A0A0A"></circle><rect x="-75" y="-135" width="150" height="270" rx="75" transform="translate(663 418) rotate(-33)" fill="#fff"></rect><rect x="-55" y="-125" width="110" height="250" rx="55" transform="translate(945 275) rotate(-33)" fill="#fff"></rect></svg>
     <h2>Meet Lumo.</h2>
-    <p class="lead" style="max-width:560px;margin:16px auto 0">Get early access and hire with evidence.</p>
-    <form class="form" id="join-form">
-      <label for="email" style="position:absolute;left:-9999px">Work email</label>
-      <input id="email" type="email" placeholder="Work email" required="" autoComplete="email" aria-describedby="signup-note"/>
-      <button class="btn" type="submit" id="join-button">Save my interest</button>
-    </form>
-    <p class="note" id="note" role="status" aria-live="polite"></p>
-    <button class="text-button local-remove" type="button" id="remove-interest" hidden="">Remove saved interest from this browser</button>
-    <p class="hint" id="signup-note">This preview saves your email in this browser only. It is not sent to Lumo.</p>
+    <p class="lead" style="max-width:560px;margin:16px auto 0">See how Lumo works, then build an interview.</p><div class="hero-cta"><button class="btn" type="button" data-start-tour="true">Start now</button></div>
   </div>
 </section>
 </main>
@@ -326,14 +280,10 @@
     <p class="fine">Lumo is an AI interviewer. It provides suggestions and evidence to support human hiring decisions and does not make employment decisions. This page describes a product in design; features and availability may change.</p>
     <div class="foot">
       <span>© 2026 Lumo</span>
-      <div class="links">
-        <button class="text-button" type="button" data-info="privacy">Privacy</button>
-        <button class="text-button" type="button" data-info="terms">Terms</button>
-        <a href="#join">Contact / early access</a>
-      </div>
+      <div class="links"><button class="text-button" type="button" data-info="privacy">Privacy</button><button class="text-button" type="button" data-info="terms">Terms</button><a href="#join">Contact</a></div>
     </div>
   </div>
 </footer>
 
 
-</div><!--$--><!--/$--><script id="_R_">(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push({"otherChunks":["static/chunks/0j1we3cwg31qe.js","static/chunks/0m3mby5pxg4oz.js","static/chunks/23e6jep2anmtk.js"],"runtimeModuleIds":[94553]});</script><script src="/_next/static/chunks/0j1we3cwg31qe.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:\"/_next/static/chunks/3qfy96eoyh-ek.js\"\n3:I[39756,[\"$2\"],\"default\"]\n4:I[37457,[\"$2\"],\"default\"]\n6:\"/_next/static/chunks/0bf4vplm4vbei.js\"\n7:I[73572,[\"$2\",\"$6\"],\"default\"]\n8:I[97367,[\"$2\"],\"OutletBoundary\"]\n9:\"$Sreact.suspense\"\nb:\"ViewportBoundary\"\nc:I[97367,[\"$2\"],\"$b\"]\ne:\"MetadataBoundary\"\nf:I[97367,[\"$2\"],\"$e\"]\n11:I[68027,[\"$2\"],\"default\",1]\n:HL[\"/_next/static/chunks/3enpliegijnj6.css\",\"style\"]\n5:[[\"children\",{\"s\":\"__PAGE__\",\"h\":512,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L7\",null,{}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/0bf4vplm4vbei.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L8\",null,{\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@a\"}]}]]}],\"p\":false,\"v\":null}}]]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"t\":{\"t\":{\"s\":\"\",\"h\":528,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3enpliegijnj6.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3qfy96eoyh-ek.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],\"p\":false,\"v\":null},\"c\":\"$Q5\"},\"h\":{\"r\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lc\",null,{\"children\":\"$Ld\"}],[\"$\",\"$Lf\",null,{\"children\":[[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L10\"}]}],null]}],null]}],\"p\":false,\"v\":null}},\"m\":\"$undefined\",\"G\":[\"$11\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3enpliegijnj6.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"S\":true,\"r\":\"$undefined\",\"s\":\"$undefined\",\"a\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"En3qU5gwAnr5Bf8JRyToi\"}\n"])</script><script>self.__next_f.push([1,"d:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"a:null\n10:[[\"$\",\"title\",\"0\",{\"children\":\"Lumo: Every candidate, understood.\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Lumo interviews job candidates by voice and scores them against your company values and the job description. A person makes every decision.\"}]]\n"])</script></body></html>
+</div><!--$--><!--/$--><script id="_R_">(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push({"otherChunks":["static/chunks/0j1we3cwg31qe.js","static/chunks/0m3mby5pxg4oz.js","static/chunks/23e6jep2anmtk.js"],"runtimeModuleIds":[94553]});</script><script src="/_next/static/chunks/0j1we3cwg31qe.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:\"/_next/static/chunks/3qfy96eoyh-ek.js\"\n3:I[39756,[\"$2\"],\"default\"]\n4:I[37457,[\"$2\"],\"default\"]\n6:\"/_next/static/chunks/3mlfgyzhf_a9h.js\"\n7:I[73572,[\"$2\",\"$6\"],\"default\"]\n8:I[97367,[\"$2\"],\"OutletBoundary\"]\n9:\"$Sreact.suspense\"\nb:\"ViewportBoundary\"\nc:I[97367,[\"$2\"],\"$b\"]\ne:\"MetadataBoundary\"\nf:I[97367,[\"$2\"],\"$e\"]\n11:I[68027,[\"$2\"],\"default\",1]\n:HL[\"/_next/static/chunks/060412s-dm4vd.css\",\"style\"]\n5:[[\"children\",{\"s\":\"__PAGE__\",\"h\":512,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L7\",null,{}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3mlfgyzhf_a9h.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L8\",null,{\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@a\"}]}]]}],\"p\":false,\"v\":null}}]]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"t\":{\"t\":{\"s\":\"\",\"h\":528,\"d\":{\"r\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/060412s-dm4vd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3qfy96eoyh-ek.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],\"p\":false,\"v\":null},\"c\":\"$Q5\"},\"h\":{\"r\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lc\",null,{\"children\":\"$Ld\"}],[\"$\",\"$Lf\",null,{\"children\":[[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L10\"}]}],null]}],null]}],\"p\":false,\"v\":null}},\"m\":\"$undefined\",\"G\":[\"$11\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/060412s-dm4vd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"S\":true,\"r\":\"$undefined\",\"s\":\"$undefined\",\"a\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"NytKkYGfYvMmed8ECDkyU\"}\n"])</script><script>self.__next_f.push([1,"d:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"a:null\n10:[[\"$\",\"title\",\"0\",{\"children\":\"Lumo: Every candidate, understood.\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Lumo interviews job candidates by voice and scores them against your company values and the job description. A person makes every decision.\"}]]\n"])</script></body></html>

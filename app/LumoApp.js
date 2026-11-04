@@ -66,9 +66,13 @@ export default function LumoApp() {
               {"Sign in"}
             </button>
             {"\n      "}
-            <a className={"btn small"} href={"#join"}>
-              {"Get early access"}
-            </a>
+            <button
+              className={"btn small"}
+              type={"button"}
+              data-start-tour={true}
+            >
+              {"Start now"}
+            </button>
             {"\n    "}
           </div>
           {"\n  "}
@@ -98,16 +102,18 @@ export default function LumoApp() {
             {"\n    "}
             <div className={"hero-cta"}>
               {"\n      "}
-              <a className={"btn"} href={"#join"}>
-                {"Get early access"}
-              </a>
+              <button
+                className={"btn"}
+                type={"button"}
+                id={"start-now-hero"}
+                data-start-tour={true}
+              >
+                {"Start now"}
+              </button>
               {"\n      "}
               <a className={"btn ghost"} href={"#how"}>
                 {"See how it works ›"}
               </a>
-              <button className={"btn sec"} type={"button"} id={"start-tour"}>
-                {"Take the product tour"}
-              </button>
               {"\n    "}
             </div>
             {"\n\n    "}
@@ -960,7 +966,7 @@ export default function LumoApp() {
                 {"\n        "}
                 <p className={"hint"} style={{ textAlign: "center" }}>
                   {
-                    "Interview answers stay in this preview. The early-access email is stored only in this browser."
+                    "Interview answers stay in this preview. Nothing is sent to a server."
                   }
                 </p>
                 {"\n      "}
@@ -1131,7 +1137,7 @@ export default function LumoApp() {
                 <summary>{"When can I try it?"}</summary>
                 <p>
                   {
-                    "Lumo is in design and private alpha planning. Join the early access list and we will be in touch."
+                    "Lumo is in design and private alpha planning. Start now to explore the interview setup and candidate preview."
                   }
                 </p>
               </details>
@@ -1180,51 +1186,17 @@ export default function LumoApp() {
               className={"lead"}
               style={{ maxWidth: "560px", margin: "16px auto 0" }}
             >
-              {"Get early access and hire with evidence."}
-            </p>
-            {"\n    "}
-            <form className={"form"} id={"join-form"}>
-              {"\n      "}
-              <label
-                htmlFor={"email"}
-                style={{ position: "absolute", left: "-9999px" }}
-              >
-                {"Work email"}
-              </label>
-              {"\n      "}
-              <input
-                id={"email"}
-                type={"email"}
-                placeholder={"Work email"}
-                required={true}
-                autoComplete={"email"}
-              />
-              {"\n      "}
-              <button className={"btn"} type={"submit"}>
-                {"Save my interest"}
-              </button>
-              {"\n    "}
-            </form>
-            {"\n    "}
-            <p
-              className={"note"}
-              id={"note"}
-              role={"status"}
-              aria-live={"polite"}
-            ></p>
-            <button
-              className={"text-button local-remove"}
-              type={"button"}
-              id={"remove-interest"}
-              hidden={true}
-            >
-              {"Remove saved interest from this browser"}
-            </button>
-            <p className={"hint"}>
-              {
-                "Your email is stored only in this browser preview and is not sent to Lumo."
-              }
-            </p>
+                {"See how Lumo works, then build an interview."}
+              </p>
+              <div className={"hero-cta"}>
+                <button
+                  className={"btn"}
+                  type={"button"}
+                  data-start-tour={true}
+                >
+                  {"Start now"}
+                </button>
+              </div>
             {"\n  "}
           </div>
           {"\n"}
