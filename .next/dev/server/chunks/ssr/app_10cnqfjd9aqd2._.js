@@ -48,8 +48,8 @@ function LumoApp() {
                                                 fill: "#0A0A0A"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 236
+                                                lineNumber: 26,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
                                                 x: "-75",
@@ -61,8 +61,8 @@ function LumoApp() {
                                                 fill: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 302
+                                                lineNumber: 27,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
                                                 x: "-55",
@@ -74,21 +74,21 @@ function LumoApp() {
                                                 fill: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 434
+                                                lineNumber: 36,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 157
+                                        lineNumber: 20,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      Lumo\n    "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 83
+                                lineNumber: 18,
+                                columnNumber: 11
                             }, this),
                             "\n    ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -100,8 +100,8 @@ function LumoApp() {
                                         children: "How it works"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 649
+                                        lineNumber: 51,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -109,8 +109,8 @@ function LumoApp() {
                                         children: "Features"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 698
+                                        lineNumber: 53,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -118,8 +118,8 @@ function LumoApp() {
                                         children: "Try it"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 748
+                                        lineNumber: 55,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -127,8 +127,8 @@ function LumoApp() {
                                         children: "Fairness"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 795
+                                        lineNumber: 57,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -136,15 +136,15 @@ function LumoApp() {
                                         children: "FAQ"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 845
+                                        lineNumber: 59,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 608
+                                lineNumber: 49,
+                                columnNumber: 11
                             }, this),
                             "\n    ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -158,8 +158,8 @@ function LumoApp() {
                                         children: "Sign in"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 938
+                                        lineNumber: 65,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -168,29 +168,29 @@ function LumoApp() {
                                         children: "Get early access"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 1034
+                                        lineNumber: 69,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 899
+                                lineNumber: 63,
+                                columnNumber: 11
                             }, this),
                             "\n  "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 42
+                        lineNumber: 16,
+                        columnNumber: 9
                     }, this),
                     "\n"
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/LumoApp.js",
-                lineNumber: 13,
-                columnNumber: 9
+                lineNumber: 14,
+                columnNumber: 7
             }, this),
             "\n\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -210,8 +210,8 @@ function LumoApp() {
                                         children: "AI hiring interviewer"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 1242
+                                        lineNumber: 85,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -219,15 +219,15 @@ function LumoApp() {
                                             "Every candidate,",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 1330
+                                                lineNumber: 89,
+                                                columnNumber: 15
                                             }, this),
                                             "understood."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 1306
+                                        lineNumber: 87,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -235,8 +235,8 @@ function LumoApp() {
                                         children: "Lumo runs a two-part interview: quick objective questions, then a voice conversation. It scores each candidate against your values and the job description. You review a ranked shortlist, and you make every decision."
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 1366
+                                        lineNumber: 93,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -249,8 +249,8 @@ function LumoApp() {
                                                 children: "Get early access"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 1661
+                                                lineNumber: 101,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -259,8 +259,8 @@ function LumoApp() {
                                                 children: "See how it works ›"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 1733
+                                                lineNumber: 105,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "btn sec",
@@ -269,26 +269,15 @@ function LumoApp() {
                                                 children: "Take the product tour"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 1800
-                                            }, this),
-                                            "\n      ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "btn sec",
-                                                type: "button",
-                                                id: "start-tour",
-                                                children: "Take the product tour"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 1910
+                                                lineNumber: 108,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 1621
+                                        lineNumber: 99,
+                                        columnNumber: 13
                                     }, this),
                                     "\n\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -303,8 +292,8 @@ function LumoApp() {
                                                         children: "LUMO IS ASKING"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 2114
+                                                        lineNumber: 118,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        Tell me about a time you owned a problem.\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,86 +302,86 @@ function LumoApp() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2257
+                                                                lineNumber: 123,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2264
+                                                                lineNumber: 124,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2271
+                                                                lineNumber: 125,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2278
+                                                                lineNumber: 126,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2285
+                                                                lineNumber: 127,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2292
+                                                                lineNumber: 128,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2299
+                                                                lineNumber: 129,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2306
+                                                                lineNumber: 130,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2313
+                                                                lineNumber: 131,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2320
+                                                                lineNumber: 132,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2327
+                                                                lineNumber: 133,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2334
+                                                                lineNumber: 134,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2341
+                                                                lineNumber: 135,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2348
+                                                                lineNumber: 136,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 2212
+                                                        lineNumber: 122,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 2073
+                                                lineNumber: 116,
+                                                columnNumber: 15
                                             }, this),
                                             "\n\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,8 +399,8 @@ function LumoApp() {
                                                                 children: "Chidi Eze"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2597
+                                                                lineNumber: 151,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -419,8 +408,8 @@ function LumoApp() {
                                                                 children: "Operations Analyst · 18 min interview"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2654
+                                                                lineNumber: 153,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -434,49 +423,49 @@ function LumoApp() {
                                                                                 children: "88"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 2808
+                                                                                lineNumber: 160,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                         style: {
-                                                                                            "fontWeight": "600",
-                                                                                            "fontSize": "14px"
+                                                                                            fontWeight: "600",
+                                                                                            fontSize: "14px"
                                                                                         },
                                                                                         children: "Strong match"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 2826
+                                                                                        lineNumber: 162,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                         style: {
-                                                                                            "fontSize": "11px",
-                                                                                            "color": "#6C6C70"
+                                                                                            fontSize: "11px",
+                                                                                            color: "#6C6C70"
                                                                                         },
                                                                                         children: "Lumo's suggestion, 9 answers"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 2903
+                                                                                        lineNumber: 165,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 2821
+                                                                                lineNumber: 161,
+                                                                                columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 2782
+                                                                        lineNumber: 159,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         style: {
-                                                                            "marginTop": "8px"
+                                                                            marginTop: "8px"
                                                                         },
                                                                         children: [
                                                                             "\n              ",
@@ -487,8 +476,8 @@ function LumoApp() {
                                                                                         children: "Role skills"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3103
+                                                                                        lineNumber: 174,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                                         style: {
@@ -496,21 +485,21 @@ function LumoApp() {
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3131
+                                                                                        lineNumber: 175,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                                                         children: "91"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3161
+                                                                                        lineNumber: 176,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 3079
+                                                                                lineNumber: 173,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -520,8 +509,8 @@ function LumoApp() {
                                                                                         children: "Values"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3226
+                                                                                        lineNumber: 180,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                                         style: {
@@ -529,21 +518,21 @@ function LumoApp() {
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3249
+                                                                                        lineNumber: 181,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                                                         children: "86"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3279
+                                                                                        lineNumber: 182,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 3202
+                                                                                lineNumber: 179,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -553,8 +542,8 @@ function LumoApp() {
                                                                                         children: "Communication"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3344
+                                                                                        lineNumber: 186,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                                         style: {
@@ -562,21 +551,21 @@ function LumoApp() {
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3374
+                                                                                        lineNumber: 187,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                                                         children: "84"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3404
+                                                                                        lineNumber: 188,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 3320
+                                                                                lineNumber: 185,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -586,8 +575,8 @@ function LumoApp() {
                                                                                         children: "Experience"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3469
+                                                                                        lineNumber: 192,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                                         style: {
@@ -595,35 +584,35 @@ function LumoApp() {
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3496
+                                                                                        lineNumber: 193,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                                                         children: "79"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 3526
+                                                                                        lineNumber: 194,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 3445
+                                                                                lineNumber: 191,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n            "
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3025
+                                                                        lineNumber: 171,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 2739
+                                                                lineNumber: 157,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -633,28 +622,28 @@ function LumoApp() {
                                                                         children: "Ownership"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3632
+                                                                        lineNumber: 202,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "tag g",
                                                                         children: "High"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3652
+                                                                        lineNumber: 203,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3693
+                                                                        lineNumber: 204,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "“I rebuilt the reconciliation sheet myself and told finance before they asked.”"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 3609
+                                                                lineNumber: 201,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -664,42 +653,42 @@ function LumoApp() {
                                                                         children: "Customer first"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3827
+                                                                        lineNumber: 211,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "tag o",
                                                                         children: "Not shown"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3852
+                                                                        lineNumber: 212,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 3898
+                                                                        lineNumber: 213,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "No example given. Worth asking in the next round."
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 3804
+                                                                lineNumber: 210,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 2549
+                                                        lineNumber: 149,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 2393
+                                                lineNumber: 141,
+                                                columnNumber: 15
                                             }, this),
                                             "\n\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -710,60 +699,60 @@ function LumoApp() {
                                                         children: "SUGGESTION, NOT A DECISION"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4056
+                                                        lineNumber: 223,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                         children: "Advance to next round?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4115
+                                                        lineNumber: 225,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4148
+                                                        lineNumber: 226,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
-                                                            "color": "var(--muted)"
+                                                            color: "var(--muted)"
                                                         },
                                                         children: "A person reviews every scorecard."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4168
+                                                        lineNumber: 228,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4015
+                                                lineNumber: 221,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 2036
+                                        lineNumber: 114,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 1208
+                                lineNumber: 83,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 1173
+                        lineNumber: 81,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -783,8 +772,8 @@ function LumoApp() {
                                                 children: "How it works"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4423
+                                                lineNumber: 246,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -792,15 +781,15 @@ function LumoApp() {
                                                     "Set up once.",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4500
+                                                        lineNumber: 250,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "Interview everyone."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4480
+                                                lineNumber: 248,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -808,15 +797,15 @@ function LumoApp() {
                                                 children: "First-round interviews take weeks. Lumo runs them in days, the same way for every candidate."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4546
+                                                lineNumber: 254,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 4385
+                                        lineNumber: 244,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -831,28 +820,28 @@ function LumoApp() {
                                                         children: "1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4755
+                                                        lineNumber: 265,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Set up the role"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4787
+                                                        lineNumber: 266,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Import the job description, pick your values and set the time. Use Lumo's questions, upload your own or write them yourself."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4815
+                                                        lineNumber: 267,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4731
+                                                lineNumber: 264,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,28 +852,28 @@ function LumoApp() {
                                                         children: "2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 4992
+                                                        lineNumber: 275,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Two parts, one link"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5024
+                                                        lineNumber: 276,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Part 1 is objective questions, scored automatically. Part 2 is a voice interview where Lumo asks the same questions of everyone and follows up when an answer is vague."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5056
+                                                        lineNumber: 277,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 4968
+                                                lineNumber: 274,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -895,49 +884,49 @@ function LumoApp() {
                                                         children: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5276
+                                                        lineNumber: 285,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Review and decide"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5308
+                                                        lineNumber: 286,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "See a ranked shortlist with a score for each criterion and the exact words behind it. You advance, hold or decline."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5338
+                                                        lineNumber: 287,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 5252
+                                                lineNumber: 284,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 4694
+                                        lineNumber: 262,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 4351
+                                lineNumber: 242,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 4323
+                        lineNumber: 240,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -958,8 +947,8 @@ function LumoApp() {
                                                 children: "Features"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 5647
+                                                lineNumber: 306,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -967,22 +956,22 @@ function LumoApp() {
                                                     "Built for evidence,",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5727
+                                                        lineNumber: 310,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "not gut feeling."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 5700
+                                                lineNumber: 308,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 5609
+                                        lineNumber: 304,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1017,49 +1006,49 @@ function LumoApp() {
                                                                             rx: "3"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/LumoApp.js",
-                                                                            lineNumber: 13,
-                                                                            columnNumber: 6090
+                                                                            lineNumber: 334,
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                             d: "M5 11a7 7 0 0 0 14 0M12 18v3"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/LumoApp.js",
-                                                                            lineNumber: 13,
-                                                                            columnNumber: 6154
+                                                                            lineNumber: 341,
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 5908
+                                                                    lineNumber: 323,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 5884
+                                                                lineNumber: 322,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 children: "A voice interviewer that listens"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 6230
+                                                                lineNumber: 345,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: "Lumo speaks each question, waits for the answer and asks a follow-up when it matters. Candidates can repeat, skip or stop at any time, and can type instead if they prefer."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 6291
+                                                                lineNumber: 347,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 5863
+                                                        lineNumber: 320,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1067,46 +1056,46 @@ function LumoApp() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                                 style: {
-                                                                    "fontSize": "12px",
-                                                                    "color": "var(--muted)",
-                                                                    "letterSpacing": ".3px"
+                                                                    fontSize: "12px",
+                                                                    color: "var(--muted)",
+                                                                    letterSpacing: ".3px"
                                                                 },
                                                                 children: "LUMO"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 6531
+                                                                lineNumber: 356,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("q", {
                                                                 children: "How long does that take each week?"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 6625
+                                                                lineNumber: 365,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "who",
                                                                 style: {
-                                                                    "marginTop": "0"
+                                                                    marginTop: "0"
                                                                 },
                                                                 children: "Follow-up"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 6670
+                                                                lineNumber: 366,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 6507
+                                                        lineNumber: 355,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 5820
+                                                lineNumber: 318,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,41 +1118,41 @@ function LumoApp() {
                                                                 d: "M5 20V11M12 20V5M19 20v-6"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 7019
+                                                                lineNumber: 387,
+                                                                columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/LumoApp.js",
-                                                            lineNumber: 13,
-                                                            columnNumber: 6837
+                                                            lineNumber: 376,
+                                                            columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 6813
+                                                        lineNumber: 375,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Scorecards from your values"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7090
+                                                        lineNumber: 391,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Choose the values and skills that matter. Every answer is scored against them."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7144
+                                                        lineNumber: 393,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 6775
+                                                lineNumber: 373,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1186,41 +1175,41 @@ function LumoApp() {
                                                                 d: "M5 5h14v11H10l-5 4z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 7507
+                                                                lineNumber: 415,
+                                                                columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/LumoApp.js",
-                                                            lineNumber: 13,
-                                                            columnNumber: 7325
+                                                            lineNumber: 404,
+                                                            columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7301
+                                                        lineNumber: 403,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Every score shows its quote"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7572
+                                                        lineNumber: 419,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "No quote, no score. You see the candidate's own words behind each number."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7626
+                                                        lineNumber: 421,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 7263
+                                                lineNumber: 401,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,49 +1235,49 @@ function LumoApp() {
                                                                     r: "9"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 7984
+                                                                    lineNumber: 443,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                     d: "M12 8v5M12 16.5v.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 8029
+                                                                    lineNumber: 444,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/LumoApp.js",
-                                                            lineNumber: 13,
-                                                            columnNumber: 7802
+                                                            lineNumber: 432,
+                                                            columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 7778
+                                                        lineNumber: 431,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Gaps, not guesses"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8093
+                                                        lineNumber: 448,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "If an answer doesn't show a value, Lumo flags it for the next round instead of guessing."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8137
+                                                        lineNumber: 450,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 7740
+                                                lineNumber: 429,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1312,8 +1301,8 @@ function LumoApp() {
                                                                     d: "M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 8510
+                                                                    lineNumber: 472,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                                                                     cx: "12",
@@ -1321,42 +1310,42 @@ function LumoApp() {
                                                                     r: "3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 8574
+                                                                    lineNumber: 475,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/LumoApp.js",
-                                                            lineNumber: 13,
-                                                            columnNumber: 8328
+                                                            lineNumber: 461,
+                                                            columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8304
+                                                        lineNumber: 460,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: "Listen in, take over"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8645
+                                                        lineNumber: 479,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Watch an interview live, muted, and step in with one tap whenever you want."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8692
+                                                        lineNumber: 481,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 8266
+                                                lineNumber: 458,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1382,26 +1371,26 @@ function LumoApp() {
                                                                     r: "3.2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 9057
+                                                                    lineNumber: 503,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                     d: "M3 19a6 6 0 0 1 12 0M16 6a3 3 0 0 1 0 6M18 19a5 5 0 0 0-3-4.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/LumoApp.js",
-                                                                    lineNumber: 13,
-                                                                    columnNumber: 9102
+                                                                    lineNumber: 504,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/LumoApp.js",
-                                                            lineNumber: 13,
-                                                            columnNumber: 8875
+                                                            lineNumber: 492,
+                                                            columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 8851
+                                                        lineNumber: 491,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1410,50 +1399,50 @@ function LumoApp() {
                                                                 children: "A ranked shortlist"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 9214
+                                                                lineNumber: 513,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: "Compare candidates side by side and move the best ones forward in minutes."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 9259
+                                                                lineNumber: 515,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 9209
+                                                        lineNumber: 512,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 8808
+                                                lineNumber: 489,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 5784
+                                        lineNumber: 316,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 5575
+                                lineNumber: 302,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 5524
+                        lineNumber: 300,
+                        columnNumber: 9
                     }, this),
                     "\n\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1474,8 +1463,8 @@ function LumoApp() {
                                                 children: "Interview builder"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 9546
+                                                lineNumber: 536,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1483,15 +1472,15 @@ function LumoApp() {
                                                     "Two parts.",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 9626
+                                                        lineNumber: 540,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "Your questions, your time."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 9608
+                                                lineNumber: 538,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1499,15 +1488,15 @@ function LumoApp() {
                                                 children: "Start with quick objective questions, then let Lumo interview by voice. Set the time for each part, and use Lumo's questions, upload yours or write your own."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 9679
+                                                lineNumber: 544,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 9508
+                                        lineNumber: 534,
+                                        columnNumber: 13
                                     }, this),
                                     "\n\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1525,8 +1514,8 @@ function LumoApp() {
                                                                 children: "Role and schedule"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 9992
+                                                                lineNumber: 558,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1534,102 +1523,8 @@ function LumoApp() {
                                                                 children: "Candidates can start any time inside this window."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 10038
-                                                            }, this),
-                                                            "\n          ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                className: "field",
-                                                                htmlFor: "role-template",
-                                                                children: "Start from a role template"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 10132
-                                                            }, this),
-                                                            "\n          ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                className: "in",
-                                                                id: "role-template",
-                                                                children: [
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "operations",
-                                                                        children: "Operations Analyst"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10303
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "frontend",
-                                                                        children: "Frontend Developer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10381
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "javascript",
-                                                                        children: "JavaScript Engineer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10457
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "react",
-                                                                        children: "React Engineer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10536
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "nextjs",
-                                                                        children: "Next.js Developer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10605
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "css",
-                                                                        children: "CSS & UI Engineer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10678
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "fullstack",
-                                                                        children: "Full-stack Web Developer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10748
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "qa",
-                                                                        children: "Frontend QA Automation Engineer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 10831
-                                                                    }, this),
-                                                                    "\n          "
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 10239
+                                                                lineNumber: 560,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1638,8 +1533,8 @@ function LumoApp() {
                                                                 children: "Role"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 10937
+                                                                lineNumber: 564,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1649,27 +1544,8 @@ function LumoApp() {
                                                                 autoComplete: "off"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11013
-                                                            }, this),
-                                                            "\n          ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "hint",
-                                                                children: "Skills in this template"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11124
-                                                            }, this),
-                                                            "\n          ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "skills",
-                                                                id: "skill-tags",
-                                                                "aria-live": "polite"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11193
+                                                                lineNumber: 568,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1684,8 +1560,8 @@ function LumoApp() {
                                                                                 children: "Open from"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 11327
+                                                                                lineNumber: 578,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                 className: "in",
@@ -1693,14 +1569,14 @@ function LumoApp() {
                                                                                 id: "from"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 11392
+                                                                                lineNumber: 581,
+                                                                                columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 11322
+                                                                        lineNumber: 577,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1711,8 +1587,8 @@ function LumoApp() {
                                                                                 children: "Open until"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 11473
+                                                                                lineNumber: 585,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                 className: "in",
@@ -1720,33 +1596,32 @@ function LumoApp() {
                                                                                 id: "to"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 11537
+                                                                                lineNumber: 588,
+                                                                                columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 11468
+                                                                        lineNumber: 584,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11280
+                                                                lineNumber: 575,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 9952
+                                                        lineNumber: 556,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "card",
-                                                        id: "p1",
                                                         "data-part": "1",
                                                         children: [
                                                             "\n          ",
@@ -1755,16 +1630,16 @@ function LumoApp() {
                                                                 children: "Part 1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11717
+                                                                lineNumber: 597,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 children: "Objective questions"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11775
+                                                                lineNumber: 599,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1772,8 +1647,8 @@ function LumoApp() {
                                                                 children: "Multiple choice. Scored automatically and counted toward role skills."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11823
+                                                                lineNumber: 601,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1786,14 +1661,14 @@ function LumoApp() {
                                                                         children: "15 min"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12002
+                                                                        lineNumber: 609,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 11937
+                                                                lineNumber: 607,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1805,8 +1680,8 @@ function LumoApp() {
                                                                 defaultValue: "15"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 12063
+                                                                lineNumber: 612,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1822,8 +1697,8 @@ function LumoApp() {
                                                                         children: "Lumo drafts"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12260
+                                                                        lineNumber: 627,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1832,8 +1707,8 @@ function LumoApp() {
                                                                         children: "Upload"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12362
+                                                                        lineNumber: 631,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1842,15 +1717,15 @@ function LumoApp() {
                                                                         children: "Write my own"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12443
+                                                                        lineNumber: 635,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 12165
+                                                                lineNumber: 621,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1861,13 +1736,13 @@ function LumoApp() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "hint",
                                                                         style: {
-                                                                            "marginTop": "0"
+                                                                            marginTop: "0"
                                                                         },
                                                                         children: "Lumo drafts questions from the job description and your values. These are examples."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12610
+                                                                        lineNumber: 643,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1875,20 +1750,20 @@ function LumoApp() {
                                                                         className: "btn sec sm",
                                                                         id: "draft1",
                                                                         style: {
-                                                                            "marginTop": "12px"
+                                                                            marginTop: "12px"
                                                                         },
-                                                                        children: "Redraft examples"
+                                                                        children: "Restore sample questions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12768
+                                                                        lineNumber: 649,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 12547
+                                                                lineNumber: 641,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1903,8 +1778,8 @@ function LumoApp() {
                                                                         accept: ".csv,.txt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 12989
+                                                                        lineNumber: 662,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1915,32 +1790,22 @@ function LumoApp() {
                                                                                 children: "Question, A, B, C, D, Answer"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 13147
+                                                                                lineNumber: 671,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             ". The answer is a letter, A to D. Your file stays in this browser."
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 13081
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "hint",
-                                                                        id: "file-msg1",
-                                                                        role: "status"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 13284
+                                                                        lineNumber: 669,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 12928
+                                                                lineNumber: 660,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1952,13 +1817,13 @@ function LumoApp() {
                                                                         className: "field",
                                                                         htmlFor: "q1",
                                                                         style: {
-                                                                            "marginTop": "0"
+                                                                            marginTop: "0"
                                                                         },
                                                                         children: "Question"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 13439
+                                                                        lineNumber: 681,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1967,8 +1832,8 @@ function LumoApp() {
                                                                         placeholder: "e.g. Which metric best shows billing accuracy?"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 13546
+                                                                        lineNumber: 689,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1986,22 +1851,22 @@ function LumoApp() {
                                                                                         defaultChecked: true
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 13757
+                                                                                        lineNumber: 700,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                         className: "in",
                                                                                         placeholder: "Option A"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 13836
+                                                                                        lineNumber: 706,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 13732
+                                                                                lineNumber: 699,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2013,22 +1878,22 @@ function LumoApp() {
                                                                                         defaultValue: "1"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 13940
+                                                                                        lineNumber: 710,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                         className: "in",
                                                                                         placeholder: "Option B"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 13997
+                                                                                        lineNumber: 715,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 13915
+                                                                                lineNumber: 709,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2040,22 +1905,22 @@ function LumoApp() {
                                                                                         defaultValue: "2"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 14101
+                                                                                        lineNumber: 719,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                         className: "in",
                                                                                         placeholder: "Option C"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 14158
+                                                                                        lineNumber: 724,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 14076
+                                                                                lineNumber: 718,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n              ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2067,41 +1932,41 @@ function LumoApp() {
                                                                                         defaultValue: "3"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 14262
+                                                                                        lineNumber: 728,
+                                                                                        columnNumber: 25
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                                                         className: "in",
                                                                                         placeholder: "Option D"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                                        lineNumber: 13,
-                                                                                        columnNumber: 14319
+                                                                                        lineNumber: 733,
+                                                                                        columnNumber: 25
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 14237
+                                                                                lineNumber: 727,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             "\n            "
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 13675
+                                                                        lineNumber: 697,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "hint",
                                                                         style: {
-                                                                            "margin": "0 0 12px"
+                                                                            margin: "0 0 12px"
                                                                         },
                                                                         children: "Select the circle next to the correct answer."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 14420
+                                                                        lineNumber: 738,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2111,8 +1976,8 @@ function LumoApp() {
                                                                         children: "Add question"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 14544
+                                                                        lineNumber: 742,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2120,19 +1985,19 @@ function LumoApp() {
                                                                         id: "msg1",
                                                                         role: "status",
                                                                         style: {
-                                                                            "marginLeft": "10px"
+                                                                            marginLeft: "10px"
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 14648
+                                                                        lineNumber: 750,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 13381
+                                                                lineNumber: 679,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -2140,20 +2005,19 @@ function LumoApp() {
                                                                 id: "list1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 14777
+                                                                lineNumber: 759,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 11651
+                                                        lineNumber: 595,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "card",
-                                                        id: "p2",
                                                         "data-part": "2",
                                                         children: [
                                                             "\n          ",
@@ -2162,16 +2026,16 @@ function LumoApp() {
                                                                 children: "Part 2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 14921
+                                                                lineNumber: 765,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 children: "Voice interview"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 14981
+                                                                lineNumber: 767,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2179,8 +2043,8 @@ function LumoApp() {
                                                                 children: "Lumo asks these out loud, listens and follows up on vague answers."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 15025
+                                                                lineNumber: 769,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2193,14 +2057,14 @@ function LumoApp() {
                                                                         children: "20 min"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15201
+                                                                        lineNumber: 777,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 15136
+                                                                lineNumber: 775,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2212,8 +2076,8 @@ function LumoApp() {
                                                                 defaultValue: "20"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 15262
+                                                                lineNumber: 780,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2229,8 +2093,8 @@ function LumoApp() {
                                                                         children: "Lumo drafts"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15459
+                                                                        lineNumber: 795,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2239,8 +2103,8 @@ function LumoApp() {
                                                                         children: "Upload"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15561
+                                                                        lineNumber: 799,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2249,15 +2113,15 @@ function LumoApp() {
                                                                         children: "Write my own"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15642
+                                                                        lineNumber: 803,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 15364
+                                                                lineNumber: 789,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2268,13 +2132,13 @@ function LumoApp() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "hint",
                                                                         style: {
-                                                                            "marginTop": "0"
+                                                                            marginTop: "0"
                                                                         },
                                                                         children: "Lumo drafts open questions that probe your values. These are examples."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15809
+                                                                        lineNumber: 811,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2282,20 +2146,20 @@ function LumoApp() {
                                                                         className: "btn sec sm",
                                                                         id: "draft2",
                                                                         style: {
-                                                                            "marginTop": "12px"
+                                                                            marginTop: "12px"
                                                                         },
-                                                                        children: "Redraft examples"
+                                                                        children: "Restore sample questions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 15954
+                                                                        lineNumber: 817,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 15746
+                                                                lineNumber: 809,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2310,8 +2174,8 @@ function LumoApp() {
                                                                         accept: ".csv,.txt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16175
+                                                                        lineNumber: 830,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2319,25 +2183,15 @@ function LumoApp() {
                                                                         children: "Text or CSV file with one question per line. Your file stays in this browser."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16267
-                                                                    }, this),
-                                                                    "\n            ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "hint",
-                                                                        id: "file-msg2",
-                                                                        role: "status"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16392
+                                                                        lineNumber: 837,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 16114
+                                                                lineNumber: 828,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,13 +2203,13 @@ function LumoApp() {
                                                                         className: "field",
                                                                         htmlFor: "q2",
                                                                         style: {
-                                                                            "marginTop": "0"
+                                                                            marginTop: "0"
                                                                         },
                                                                         children: "Question"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16547
+                                                                        lineNumber: 847,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2364,13 +2218,13 @@ function LumoApp() {
                                                                         placeholder: "e.g. Tell me about a time you put a customer first."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16654
+                                                                        lineNumber: 855,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n            ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         style: {
-                                                                            "marginTop": "12px"
+                                                                            marginTop: "12px"
                                                                         },
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2380,33 +2234,33 @@ function LumoApp() {
                                                                                 children: "Add question"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 16823
+                                                                                lineNumber: 864,
+                                                                                columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "hint",
                                                                                 id: "msg2",
                                                                                 role: "status",
                                                                                 style: {
-                                                                                    "marginLeft": "10px"
+                                                                                    marginLeft: "10px"
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                                lineNumber: 13,
-                                                                                columnNumber: 16909
+                                                                                lineNumber: 871,
+                                                                                columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 16788
+                                                                        lineNumber: 863,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     "\n          "
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 16489
+                                                                lineNumber: 845,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -2414,22 +2268,22 @@ function LumoApp() {
                                                                 id: "list2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17044
+                                                                lineNumber: 881,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 14855
+                                                        lineNumber: 763,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 9933
+                                                lineNumber: 554,
+                                                columnNumber: 15
                                             }, this),
                                             "\n\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -2441,8 +2295,8 @@ function LumoApp() {
                                                         children: "Your session"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17217
+                                                        lineNumber: 889,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2451,8 +2305,8 @@ function LumoApp() {
                                                         children: "Operations Analyst"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17256
+                                                        lineNumber: 891,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2463,26 +2317,26 @@ function LumoApp() {
                                                                 children: "35"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17355
+                                                                lineNumber: 896,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    "fontSize": "20px",
-                                                                    "fontWeight": "600",
-                                                                    "color": "var(--muted)"
+                                                                    fontSize: "20px",
+                                                                    fontWeight: "600",
+                                                                    color: "var(--muted)"
                                                                 },
                                                                 children: " min"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17387
+                                                                lineNumber: 897,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17332
+                                                        lineNumber: 895,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2494,22 +2348,22 @@ function LumoApp() {
                                                                 id: "bar1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17547
+                                                                lineNumber: 909,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                                                 className: "b2",
                                                                 id: "bar2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17583
+                                                                lineNumber: 910,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17503
+                                                        lineNumber: 908,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2526,15 +2380,15 @@ function LumoApp() {
                                                                         children: "15"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 17711
+                                                                        lineNumber: 916,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     " min"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17665
+                                                                lineNumber: 914,
+                                                                columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
@@ -2547,21 +2401,21 @@ function LumoApp() {
                                                                         children: "20"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 17795
+                                                                        lineNumber: 921,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     " min"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17749
+                                                                lineNumber: 919,
+                                                                columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17639
+                                                        lineNumber: 913,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2575,22 +2429,22 @@ function LumoApp() {
                                                                         children: "Objective questions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 17918
+                                                                        lineNumber: 929,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "n1",
                                                                         children: "0"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 17954
+                                                                        lineNumber: 930,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 17894
+                                                                lineNumber: 928,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2600,22 +2454,22 @@ function LumoApp() {
                                                                         children: "Time per objective question"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18028
+                                                                        lineNumber: 934,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "pq1",
                                                                         children: "-"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18072
+                                                                        lineNumber: 935,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 18004
+                                                                lineNumber: 933,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2625,22 +2479,22 @@ function LumoApp() {
                                                                         children: "Voice questions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18147
+                                                                        lineNumber: 939,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "n2",
                                                                         children: "0"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18179
+                                                                        lineNumber: 940,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 18123
+                                                                lineNumber: 938,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2650,22 +2504,22 @@ function LumoApp() {
                                                                         children: "Time per voice question"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18253
+                                                                        lineNumber: 944,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "pq2",
                                                                         children: "-"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18293
+                                                                        lineNumber: 945,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 18229
+                                                                lineNumber: 943,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n          ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2675,29 +2529,29 @@ function LumoApp() {
                                                                         children: "Open window"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18368
+                                                                        lineNumber: 949,
+                                                                        columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "win",
                                                                         children: "Not set"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/LumoApp.js",
-                                                                        lineNumber: 13,
-                                                                        columnNumber: 18396
+                                                                        lineNumber: 950,
+                                                                        columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/LumoApp.js",
-                                                                lineNumber: 13,
-                                                                columnNumber: 18344
+                                                                lineNumber: 948,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "\n        "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 17853
+                                                        lineNumber: 926,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2706,8 +2560,8 @@ function LumoApp() {
                                                         role: "status"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 18471
+                                                        lineNumber: 955,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2717,48 +2571,48 @@ function LumoApp() {
                                                         children: "Preview as a candidate"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 18543
+                                                        lineNumber: 957,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n        ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "hint",
                                                         style: {
-                                                            "textAlign": "center"
+                                                            textAlign: "center"
                                                         },
-                                                        children: "A demo only. Candidate answers stay in this preview and are not recorded or sent."
+                                                        children: "Interview answers stay in this preview. The early-access email is stored only in this browser."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 18649
+                                                        lineNumber: 961,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "\n      "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 17138
+                                                lineNumber: 887,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 9894
+                                        lineNumber: 552,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 9474
+                                lineNumber: 532,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 9424
+                        lineNumber: 530,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("dialog", {
@@ -2769,179 +2623,13 @@ function LumoApp() {
                             id: "pv"
                         }, void 0, false, {
                             fileName: "[project]/app/LumoApp.js",
-                            lineNumber: 13,
-                            columnNumber: 18918
+                            lineNumber: 976,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 18866
-                    }, this),
-                    "\n",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("dialog", {
-                        id: "tour-dialog",
-                        className: "tour-dialog",
-                        "aria-labelledby": "tour-title",
-                        children: [
-                            "\n  ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "tour-body",
-                                children: [
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "tour-progress",
-                                        id: "tour-progress"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19102
-                                    }, this),
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        id: "tour-title"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19174
-                                    }, this),
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        id: "tour-copy"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19211
-                                    }, this),
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "tour-actions",
-                                        children: [
-                                            "\n      ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "text-button",
-                                                type: "button",
-                                                id: "tour-skip",
-                                                children: "Exit tour"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 19289
-                                            }, this),
-                                            "\n      ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "right",
-                                                children: [
-                                                    "\n        ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "btn sec sm",
-                                                        type: "button",
-                                                        id: "tour-back",
-                                                        children: "Back"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 19429
-                                                    }, this),
-                                                    "\n        ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "btn sm",
-                                                        type: "button",
-                                                        id: "tour-next",
-                                                        children: "Next"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 19526
-                                                    }, this),
-                                                    "\n      "
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 19390
-                                            }, this),
-                                            "\n    "
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19245
-                                    }, this),
-                                    "\n  "
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 19063
-                            }, this),
-                            "\n"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 18971
-                    }, this),
-                    "\n",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("dialog", {
-                        id: "message-dialog",
-                        className: "message-dialog",
-                        "aria-labelledby": "message-title",
-                        children: [
-                            "\n  ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                id: "message-title"
-                            }, void 0, false, {
-                                fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 19775
-                            }, this),
-                            "\n  ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                id: "message-copy"
-                            }, void 0, false, {
-                                fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 19813
-                            }, this),
-                            "\n  ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "message-actions",
-                                children: [
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "text-button",
-                                        type: "button",
-                                        id: "message-close",
-                                        children: "Close"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19893
-                                    }, this),
-                                    "\n    ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: "btn small",
-                                        id: "message-cta",
-                                        href: "#join",
-                                        children: "Get early access"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 19992
-                                    }, this),
-                                    "\n  "
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 19848
-                            }, this),
-                            "\n"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 19674
+                        lineNumber: 975,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2958,8 +2646,8 @@ function LumoApp() {
                                         children: "Fairness and privacy"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 20200
+                                        lineNumber: 983,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2967,28 +2655,28 @@ function LumoApp() {
                                             "Lumo suggests.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 20285
+                                                lineNumber: 987,
+                                                columnNumber: 15
                                             }, this),
                                             "People decide."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 20263
+                                        lineNumber: 985,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "lead",
                                         style: {
-                                            "maxWidth": "640px",
-                                            "marginTop": "18px"
+                                            maxWidth: "640px",
+                                            marginTop: "18px"
                                         },
                                         children: "Hiring is high stakes, so Lumo is built to be explainable, consistent and honest with candidates."
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 20324
+                                        lineNumber: 991,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3002,21 +2690,21 @@ function LumoApp() {
                                                         children: "A person makes every decision"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20573
+                                                        lineNumber: 1003,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Lumo never rejects or advances a candidate on its own."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20613
+                                                        lineNumber: 1004,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 20549
+                                                lineNumber: 1002,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3026,21 +2714,21 @@ function LumoApp() {
                                                         children: "Same questions for everyone"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20726
+                                                        lineNumber: 1010,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Every candidate for a role gets the same set, so comparisons are fair."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20764
+                                                        lineNumber: 1011,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 20702
+                                                lineNumber: 1009,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3050,21 +2738,21 @@ function LumoApp() {
                                                         children: "Job-related signals only"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20893
+                                                        lineNumber: 1019,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Name, age, gender, accent, voice and background are never used in scoring."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 20928
+                                                        lineNumber: 1020,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 20869
+                                                lineNumber: 1018,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3074,21 +2762,21 @@ function LumoApp() {
                                                         children: "Always disclosed"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21061
+                                                        lineNumber: 1028,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Candidates hear that Lumo is an AI and consent before recording begins."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21088
+                                                        lineNumber: 1029,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21037
+                                                lineNumber: 1027,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3098,21 +2786,21 @@ function LumoApp() {
                                                         children: "Candidates keep control"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21218
+                                                        lineNumber: 1037,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "They can review their answers, ask for a human, or delete their recording."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21252
+                                                        lineNumber: 1038,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21194
+                                                lineNumber: 1036,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3122,42 +2810,42 @@ function LumoApp() {
                                                         children: "Auditable by design"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21385
+                                                        lineNumber: 1046,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Every score and every human decision is logged, with bias testing before each release."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21415
+                                                        lineNumber: 1047,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21361
+                                                lineNumber: 1045,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 20512
+                                        lineNumber: 1000,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 20166
+                                lineNumber: 981,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 20114
+                        lineNumber: 979,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3177,23 +2865,23 @@ function LumoApp() {
                                                 children: "Questions"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21678
+                                                lineNumber: 1066,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 children: "Good to know."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21732
+                                                lineNumber: 1068,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 21640
+                                        lineNumber: 1064,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3207,21 +2895,21 @@ function LumoApp() {
                                                         children: "Does Lumo decide who gets hired?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21840
+                                                        lineNumber: 1075,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "No. Lumo scores answers and ranks candidates as a starting point. A person reads each scorecard and decides whether to advance, hold or decline."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 21895
+                                                        lineNumber: 1076,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 21819
+                                                lineNumber: 1074,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3230,21 +2918,21 @@ function LumoApp() {
                                                         children: "What do candidates need to take part?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22081
+                                                        lineNumber: 1084,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Only a link and a phone or laptop with a microphone. There is no account to create, and they can type their answers if they prefer."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22141
+                                                        lineNumber: 1085,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 22072
+                                                lineNumber: 1083,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3253,21 +2941,21 @@ function LumoApp() {
                                                         children: "How does Lumo score a candidate?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22314
+                                                        lineNumber: 1093,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "It compares each answer with the scorecard you set up: skills from the job description and the company values you chose. Each score links to the quote that supports it."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22369
+                                                        lineNumber: 1094,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 22305
+                                                lineNumber: 1092,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3276,21 +2964,21 @@ function LumoApp() {
                                                         children: "How do you keep scoring fair?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22579
+                                                        lineNumber: 1102,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Scores use only what candidates say, never name, age, gender, accent or background. We test for adverse impact, keep an audit log and plan an independent bias audit before launch."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22631
+                                                        lineNumber: 1103,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 22570
+                                                lineNumber: 1101,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3299,21 +2987,21 @@ function LumoApp() {
                                                         children: "Can candidates opt out of the AI interview?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22852
+                                                        lineNumber: 1111,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Yes. We are designing for candidates to ask for a human interviewer, and for them to delete their recording at any time."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 22918
+                                                        lineNumber: 1114,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 22843
+                                                lineNumber: 1110,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3322,21 +3010,21 @@ function LumoApp() {
                                                         children: "Can I use my own questions?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 23080
+                                                        lineNumber: 1122,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Yes. For both parts you can use Lumo's drafts, upload a file, or write questions yourself, and you choose how much time each part gets."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 23130
+                                                        lineNumber: 1123,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 23071
+                                                lineNumber: 1121,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -3345,42 +3033,42 @@ function LumoApp() {
                                                         children: "When can I try it?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 23307
+                                                        lineNumber: 1131,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Lumo is in design and private alpha planning. Join the early access list and we will be in touch."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/LumoApp.js",
-                                                        lineNumber: 13,
-                                                        columnNumber: 23348
+                                                        lineNumber: 1132,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 23298
+                                                lineNumber: 1130,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 21784
+                                        lineNumber: 1072,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 21606
+                                lineNumber: 1062,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 21578
+                        lineNumber: 1060,
+                        columnNumber: 9
                     }, this),
                     "\n\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3406,8 +3094,8 @@ function LumoApp() {
                                                 fill: "#0A0A0A"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 23702
+                                                lineNumber: 1156,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
                                                 x: "-75",
@@ -3419,8 +3107,8 @@ function LumoApp() {
                                                 fill: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 23768
+                                                lineNumber: 1157,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
                                                 x: "-55",
@@ -3432,35 +3120,35 @@ function LumoApp() {
                                                 fill: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 23900
+                                                lineNumber: 1166,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 23605
+                                        lineNumber: 1149,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "Meet Lumo."
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24048
+                                        lineNumber: 1177,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "lead",
                                         style: {
-                                            "maxWidth": "560px",
-                                            "margin": "16px auto 0"
+                                            maxWidth: "560px",
+                                            margin: "16px auto 0"
                                         },
                                         children: "Get early access and hire with evidence."
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24081
+                                        lineNumber: 1179,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -3471,14 +3159,14 @@ function LumoApp() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "email",
                                                 style: {
-                                                    "position": "absolute",
-                                                    "left": "-9999px"
+                                                    position: "absolute",
+                                                    left: "-9999px"
                                                 },
                                                 children: "Work email"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 24270
+                                                lineNumber: 1188,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3486,30 +3174,28 @@ function LumoApp() {
                                                 type: "email",
                                                 placeholder: "Work email",
                                                 required: true,
-                                                autoComplete: "email",
-                                                "aria-describedby": "signup-note"
+                                                autoComplete: "email"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 24381
+                                                lineNumber: 1195,
+                                                columnNumber: 15
                                             }, this),
                                             "\n      ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "btn",
                                                 type: "submit",
-                                                id: "join-button",
                                                 children: "Save my interest"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 24529
+                                                lineNumber: 1203,
+                                                columnNumber: 15
                                             }, this),
                                             "\n    "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24216
+                                        lineNumber: 1186,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3519,10 +3205,9 @@ function LumoApp() {
                                         "aria-live": "polite"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24646
+                                        lineNumber: 1209,
+                                        columnNumber: 13
                                     }, this),
-                                    "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "text-button local-remove",
                                         type: "button",
@@ -3531,39 +3216,37 @@ function LumoApp() {
                                         children: "Remove saved interest from this browser"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24731
+                                        lineNumber: 1215,
+                                        columnNumber: 13
                                     }, this),
-                                    "\n    ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "hint",
-                                        id: "signup-note",
-                                        children: "This preview saves your email in this browser only. It is not sent to Lumo."
+                                        children: "Your email is stored only in this browser preview and is not sent to Lumo."
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 24893
+                                        lineNumber: 1223,
+                                        columnNumber: 13
                                     }, this),
                                     "\n  "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 23571
+                                lineNumber: 1147,
+                                columnNumber: 11
                             }, this),
                             "\n"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 23520
+                        lineNumber: 1145,
+                        columnNumber: 9
                     }, this),
                     "\n"
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/LumoApp.js",
-                lineNumber: 13,
-                columnNumber: 1150
+                lineNumber: 79,
+                columnNumber: 7
             }, this),
             "\n\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -3578,8 +3261,8 @@ function LumoApp() {
                                 children: "Lumo is an AI interviewer. It provides suggestions and evidence to support human hiring decisions and does not make employment decisions. This page describes a product in design; features and availability may change."
                             }, void 0, false, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 25118
+                                lineNumber: 1239,
+                                columnNumber: 11
                             }, this),
                             "\n    ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3590,14 +3273,13 @@ function LumoApp() {
                                         children: "© 2026 Lumo"
                                     }, void 0, false, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 25410
+                                        lineNumber: 1247,
+                                        columnNumber: 13
                                     }, this),
                                     "\n      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "links",
                                         children: [
-                                            "\n        ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "text-button",
                                                 type: "button",
@@ -3605,10 +3287,9 @@ function LumoApp() {
                                                 children: "Privacy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 25489
+                                                lineNumber: 1250,
+                                                columnNumber: 15
                                             }, this),
-                                            "\n        ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "text-button",
                                                 type: "button",
@@ -3616,45 +3297,43 @@ function LumoApp() {
                                                 children: "Terms"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 25595
+                                                lineNumber: 1257,
+                                                columnNumber: 15
                                             }, this),
-                                            "\n        ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#join",
-                                                children: "Contact / early access"
+                                                children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/LumoApp.js",
-                                                lineNumber: 13,
-                                                columnNumber: 25697
-                                            }, this),
-                                            "\n      "
+                                                lineNumber: 1264,
+                                                columnNumber: 15
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/LumoApp.js",
-                                        lineNumber: 13,
-                                        columnNumber: 25450
+                                        lineNumber: 1249,
+                                        columnNumber: 13
                                     }, this),
                                     "\n    "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/LumoApp.js",
-                                lineNumber: 13,
-                                columnNumber: 25374
+                                lineNumber: 1245,
+                                columnNumber: 11
                             }, this),
                             "\n  "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/LumoApp.js",
-                        lineNumber: 13,
-                        columnNumber: 25084
+                        lineNumber: 1237,
+                        columnNumber: 9
                     }, this),
                     "\n"
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/LumoApp.js",
-                lineNumber: 13,
-                columnNumber: 25068
+                lineNumber: 1235,
+                columnNumber: 7
             }, this),
             "\n\n\n"
         ]
@@ -4009,6 +3688,9 @@ function mountInteractions() {
             var r = new FileReader();
             r.onload = function() {
                 cb(String(r.result));
+            };
+            r.onerror = function() {
+                msg("Could not read that file. Try another CSV or text file.");
             };
             r.readAsText(f);
         }
