@@ -652,7 +652,7 @@ export default function LumoApp() {
                       id={"draft1"}
                       style={{ marginTop: "12px" }}
                     >
-                      {"Redraft examples"}
+                      {"Restore sample questions"}
                     </button>
                     {"\n          "}
                   </div>
@@ -820,7 +820,7 @@ export default function LumoApp() {
                       id={"draft2"}
                       style={{ marginTop: "12px" }}
                     >
-                      {"Redraft examples"}
+                      {"Restore sample questions"}
                     </button>
                     {"\n          "}
                   </div>

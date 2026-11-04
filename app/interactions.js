@@ -388,6 +388,9 @@ export function mountInteractions() {
       r.onload = function () {
         cb(String(r.result));
       };
+      r.onerror = function () {
+        msg("Could not read that file. Try another CSV or text file.");
+      };
       r.readAsText(f);
     }
     function note(id) {
