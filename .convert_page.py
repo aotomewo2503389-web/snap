@@ -6,11 +6,9 @@ from pathlib import Path
 
 
 source = subprocess.check_output(
-    ["git", "show", "HEAD:index (1).html"], text=True, encoding="utf-8"
+    ["git", "show", "HEAD^:index (1).html"], text=True, encoding="utf-8"
 )
-css = re.search(r"<style>(.*?)</style>", source, re.S).group(1).strip()
 body = re.search(r"<body>(.*?)</body>", source, re.S).group(1)
-script = re.search(r"<script>(.*?)</script>", body, re.S).group(1).strip()
 body = re.sub(r"<script>.*?</script>", "", body, flags=re.S)
 body = body.replace(
     '<a href="#">Sign in</a>',
@@ -87,6 +85,8 @@ class ToJSX(HTMLParser):
         for key, value in attrs:
             name = self.attr_map.get(key, key)
             if value is None and key in self.bool_attrs:
+                if key == "checked":
+                    name = "defaultChecked"
                 self.output.append(" " + name + "={true}")
             elif key == "style" and value:
                 styles = {}
@@ -147,10 +147,5 @@ jsx = (
     + "\n    </div>\n  );\n}\n"
 )
 
-Path("app/globals.css").write_text(css + "\n", encoding="utf-8")
 Path("app/LumoApp.js").write_text(jsx, encoding="utf-8")
-Path("app/interactions.js").write_text(
-    "export function mountInteractions() {\n" + script + "\n}\n",
-    encoding="utf-8",
-)
-print("Generated React markup, stylesheet, and interaction module.")
+print("Generated the React page markup from the original Lumo content.")
