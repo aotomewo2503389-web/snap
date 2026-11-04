@@ -40,8 +40,11 @@ nav{position:sticky;top:0;z-index:10;background:var(--nav);backdrop-filter:satur
 .nav-links{display:flex;gap:28px;font-size:14px;color:var(--muted)}
 .nav-links a:hover{color:var(--ink)}
 .nav-cta{display:flex;align-items:center;gap:18px;font-size:14px}
+.text-button{border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:6px 0}
+.text-button:hover,.links a:hover{text-decoration:underline}
 .btn{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 24px;border-radius:980px;font-size:17px;font-weight:500;background:var(--blue);color:#fff;border:0;cursor:pointer;font-family:inherit;transition:background .2s}
 .btn:hover{background:var(--blue-dark)}
+.btn:focus-visible,.text-button:focus-visible,.tabs button:focus-visible,.x:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 .btn.small{height:32px;padding:0 14px;font-size:14px}
 .btn.ghost{background:transparent;color:var(--blue);padding:0 8px}
 .btn.ghost:hover{background:transparent;text-decoration:underline}
@@ -153,6 +156,9 @@ footer{background:var(--bg-alt);padding:32px 0 44px;font-size:12px;color:var(--m
 .field output{color:var(--muted);font-weight:500}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media(max-width:560px){.row2{grid-template-columns:1fr}}
+.skills{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.skill{font-size:12px;font-weight:600;padding:5px 9px;border-radius:999px;background:var(--bg-alt);color:var(--muted)}
+.builder-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
 .in,.ta{width:100%;border:1px solid var(--line);background:var(--bg-alt);color:var(--ink);border-radius:12px;padding:11px 14px;font-size:16px;font-family:inherit}
 .ta{resize:vertical;min-height:76px}
 .in:focus,.ta:focus{outline:2px solid var(--blue);outline-offset:1px}
@@ -211,6 +217,23 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
 .pv .wave{justify-content:center;height:40px;margin:22px 0}
 .pv .wave i{height:40px;width:4px}
 .timer{font-variant-numeric:tabular-nums}
+.pv textarea{width:100%;min-height:84px;resize:vertical;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit;padding:12px}
+.pv-actions{display:flex;gap:8px;flex-wrap:wrap}
+.pv-actions .btn{flex:1}
+.tour-target{position:relative;z-index:11;outline:3px solid var(--blue);outline-offset:5px;border-radius:14px}
+.tour-dialog{padding:0;width:min(480px,calc(100% - 32px));background:var(--card)}
+.tour-body{padding:28px}
+.tour-body h3{margin:8px 0}
+.tour-body p{color:var(--muted);font-size:16px}
+.tour-progress{font-size:13px;font-weight:600;color:var(--blue)}
+.tour-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:24px}
+.tour-actions .right{display:flex;gap:8px}
+.message-dialog{padding:28px;width:min(460px,calc(100% - 32px));background:var(--card);color:var(--ink)}
+.message-dialog h3{margin-bottom:10px}
+.message-dialog p{color:var(--muted);margin-bottom:18px}
+.message-actions{display:flex;justify-content:flex-end;align-items:center;gap:16px;flex-wrap:wrap}
+.local-remove{margin-top:8px;font-size:13px}
+@media(max-width:560px){.tour-body{padding:22px}.tour-actions{align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -229,7 +252,7 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
       <a href="#faq">FAQ</a>
     </div>
     <div class="nav-cta">
-      <a href="#">Sign in</a>
+      <button class="text-button" type="button" id="signin">Sign in</button>
       <a class="btn small" href="#join">Get early access</a>
     </div>
   </div>
@@ -244,6 +267,7 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
     <div class="hero-cta">
       <a class="btn" href="#join">Get early access</a>
       <a class="btn ghost" href="#how">See how it works &rsaquo;</a>
+      <button class="btn sec" type="button" id="start-tour">Take the product tour</button>
     </div>
 
     <div class="stage">
@@ -353,15 +377,28 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
         <div class="card">
           <h3>Role and schedule</h3>
           <p class="sub">Candidates can start any time inside this window.</p>
+          <label class="field" for="role-template">Start from a role template</label>
+          <select class="in" id="role-template">
+            <option value="operations">Operations Analyst</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="javascript">JavaScript Engineer</option>
+            <option value="react">React Engineer</option>
+            <option value="nextjs">Next.js Developer</option>
+            <option value="css">CSS &amp; UI Engineer</option>
+            <option value="fullstack">Full-stack Web Developer</option>
+            <option value="qa">Frontend QA Automation Engineer</option>
+          </select>
           <label class="field" for="role">Role</label>
           <input class="in" id="role" value="Operations Analyst" autocomplete="off">
+          <p class="hint">Skills in this template</p>
+          <div class="skills" id="skill-tags" aria-live="polite"></div>
           <div class="row2">
             <div><label class="field" for="from">Open from</label><input class="in" type="date" id="from"></div>
             <div><label class="field" for="to">Open until</label><input class="in" type="date" id="to"></div>
           </div>
         </div>
 
-        <div class="card" data-part="1">
+        <div class="card" id="p1" data-part="1">
           <span class="pill">Part 1</span>
           <h3>Objective questions</h3>
           <p class="sub">Multiple choice. Scored automatically and counted toward role skills.</p>
@@ -379,6 +416,7 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
           <div class="src" data-for="upload">
             <input class="in" type="file" id="file1" accept=".csv,.txt">
             <p class="hint">CSV or text file, one question per row: <code>Question, A, B, C, D, Answer</code>. The answer is a letter, A to D. Your file stays in this browser.</p>
+            <p class="hint" id="file-msg1" role="status"></p>
           </div>
           <div class="src" data-for="own">
             <label class="field" for="q1" style="margin-top:0">Question</label>
@@ -396,7 +434,7 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
           <ol class="qlist" id="list1"></ol>
         </div>
 
-        <div class="card" data-part="2">
+        <div class="card" id="p2" data-part="2">
           <span class="pill v">Part 2</span>
           <h3>Voice interview</h3>
           <p class="sub">Lumo asks these out loud, listens and follows up on vague answers.</p>
@@ -414,6 +452,7 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
           <div class="src" data-for="upload">
             <input class="in" type="file" id="file2" accept=".csv,.txt">
             <p class="hint">Text or CSV file with one question per line. Your file stays in this browser.</p>
+            <p class="hint" id="file-msg2" role="status"></p>
           </div>
           <div class="src" data-for="own">
             <label class="field" for="q2" style="margin-top:0">Question</label>
@@ -439,13 +478,35 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
         </div>
         <div class="warn" id="warn" role="status"></div>
         <button type="button" class="btn" id="preview">Preview as a candidate</button>
-        <p class="hint" style="text-align:center">A demo only. Nothing is saved or sent.</p>
+        <p class="hint" style="text-align:center">A demo only. Candidate answers stay in this preview and are not recorded or sent.</p>
       </aside>
     </div>
   </div>
 </section>
 
 <dialog id="pvd" aria-label="Candidate preview"><div class="pv" id="pv"></div></dialog>
+<dialog id="tour-dialog" class="tour-dialog" aria-labelledby="tour-title">
+  <div class="tour-body">
+    <span class="tour-progress" id="tour-progress"></span>
+    <h3 id="tour-title"></h3>
+    <p id="tour-copy"></p>
+    <div class="tour-actions">
+      <button class="text-button" type="button" id="tour-skip">Exit tour</button>
+      <div class="right">
+        <button class="btn sec sm" type="button" id="tour-back">Back</button>
+        <button class="btn sm" type="button" id="tour-next">Next</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+<dialog id="message-dialog" class="message-dialog" aria-labelledby="message-title">
+  <h3 id="message-title"></h3>
+  <p id="message-copy"></p>
+  <div class="message-actions">
+    <button class="text-button" type="button" id="message-close">Close</button>
+    <a class="btn small" id="message-cta" href="#join">Get early access</a>
+  </div>
+</dialog>
 
 <section id="fairness" class="dark">
   <div class="wrap">
@@ -488,10 +549,12 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
     <p class="lead" style="max-width:560px;margin:16px auto 0">Get early access and hire with evidence.</p>
     <form class="form" id="join-form">
       <label for="email" style="position:absolute;left:-9999px">Work email</label>
-      <input id="email" type="email" placeholder="Work email" required autocomplete="email">
-      <button class="btn" type="submit">Join the list</button>
+      <input id="email" type="email" placeholder="Work email" required autocomplete="email" aria-describedby="signup-note">
+      <button class="btn" type="submit" id="join-button">Save my interest</button>
     </form>
-    <p class="note" id="note" role="status"></p>
+    <p class="note" id="note" role="status" aria-live="polite"></p>
+    <button class="text-button local-remove" type="button" id="remove-interest" hidden>Remove saved interest from this browser</button>
+    <p class="hint" id="signup-note">This preview saves your email in this browser only. It is not sent to Lumo.</p>
   </div>
 </section>
 </main>
@@ -501,7 +564,11 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
     <p class="fine">Lumo is an AI interviewer. It provides suggestions and evidence to support human hiring decisions and does not make employment decisions. This page describes a product in design; features and availability may change.</p>
     <div class="foot">
       <span>&copy; 2026 Lumo</span>
-      <div class="links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></div>
+      <div class="links">
+        <button class="text-button" type="button" data-info="privacy">Privacy</button>
+        <button class="text-button" type="button" data-info="terms">Terms</button>
+        <a href="#join">Contact / early access</a>
+      </div>
     </div>
   </div>
 </footer>
@@ -523,6 +590,126 @@ dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
     'Describe a time you put a customer first.'
   ];
   var S = { p1: SAMPLE1.slice(), p2: SAMPLE2.slice() };
+  var TEMPLATES = {
+    operations: {
+      role: 'Operations Analyst',
+      skills: ['Process thinking', 'Accuracy', 'Customer focus'],
+      p1: SAMPLE1,
+      p2: SAMPLE2
+    },
+    frontend: {
+      role: 'Frontend Developer',
+      skills: ['HTML', 'CSS', 'JavaScript', 'Accessibility', 'Performance'],
+      p1: [
+        { q: 'Which HTML element is best for the main navigation links?', o: ['<div>', '<nav>', '<span>', '<b>'], a: 1 },
+        { q: 'Which CSS layout is designed for arranging items in two dimensions?', o: ['Flexbox', 'Grid', 'Float', 'Inline layout'], a: 1 },
+        { q: 'Which JavaScript array method creates a new array from transformed items?', o: ['forEach()', 'map()', 'find()', 'some()'], a: 1 }
+      ],
+      p2: [
+        'How do you make a complex interface usable with a keyboard and assistive technology?',
+        'Tell me about a frontend performance issue you diagnosed and improved.',
+        'How do you decide what belongs in a reusable component?'
+      ]
+    },
+    javascript: {
+      role: 'JavaScript Engineer',
+      skills: ['JavaScript', 'TypeScript', 'Async code', 'Testing', 'Web APIs'],
+      p1: [
+        { q: 'What does Promise.all return when all input promises resolve?', o: ['The first resolved value', 'An array of resolved values', 'A new promise for each value', 'A boolean'], a: 1 },
+        { q: 'Which declaration prevents reassignment of a variable binding?', o: ['var', 'let', 'const', 'static'], a: 2 },
+        { q: 'What is a useful reason to use TypeScript?', o: ['It removes the need for tests', 'It catches many type mistakes before runtime', 'It runs only in the browser', 'It replaces JavaScript APIs'], a: 1 }
+      ],
+      p2: [
+        'How do you handle loading, success and error states in an asynchronous UI?',
+        'Tell me about a bug caused by state or timing in JavaScript and how you found it.',
+        'How do you decide what to cover with unit tests versus integration tests?'
+      ]
+    },
+    react: {
+      role: 'React Engineer',
+      skills: ['JavaScript', 'React', 'Components', 'Accessibility', 'Testing'],
+      p1: [
+        { q: 'Which Hook is used to add local state to a function component?', o: ['useMemo', 'useState', 'useRef', 'useId'], a: 1 },
+        { q: 'Why should list items have stable keys?', o: ['To style each item', 'To help React track items across updates', 'To make every render synchronous', 'To avoid writing HTML'], a: 1 },
+        { q: 'When should an effect generally run?', o: ['For every calculation', 'To synchronize with an external system', 'Instead of event handlers', 'To initialize every variable'], a: 1 }
+      ],
+      p2: [
+        'How do you decide where state should live in a React application?',
+        'Describe how you would make a reusable component accessible and easy to test.',
+        'Tell me about a React rendering or performance issue you investigated.'
+      ]
+    },
+    nextjs: {
+      role: 'Next.js Developer',
+      skills: ['React', 'Next.js App Router', 'Server rendering', 'TypeScript', 'Web performance'],
+      p1: [
+        { q: 'In the Next.js App Router, where do route segments usually live?', o: ['Inside the pages folder only', 'As folders inside the app directory', 'In a single routes.json file', 'In public/'], a: 1 },
+        { q: 'When does a component need the "use client" directive?', o: ['Whenever it renders HTML', 'When it needs client-side state or browser event handlers', 'For every page', 'Only when using CSS'], a: 1 },
+        { q: 'What is a benefit of rendering content on the server?', o: ['It removes all network requests', 'It can deliver useful HTML before client JavaScript runs', 'It guarantees no errors', 'It disables caching'], a: 1 }
+      ],
+      p2: [
+        'How would you decide whether a page or component should render on the server or the client?',
+        'Describe how you would investigate a slow Next.js page.',
+        'How do you handle loading and error states in a route?'
+      ]
+    },
+    css: {
+      role: 'CSS & UI Engineer',
+      skills: ['CSS', 'Responsive design', 'Design systems', 'Accessibility', 'Browser support'],
+      p1: [
+        { q: 'Which CSS feature is most suitable for a two-dimensional page layout?', o: ['Grid', 'Float', 'Text-align', 'z-index'], a: 0 },
+        { q: 'What does box-sizing: border-box do?', o: ['Includes padding and border in the set width', 'Removes the element border', 'Makes an element a flex container', 'Changes the font size'], a: 0 },
+        { q: 'Which unit is based on the root element font size?', o: ['px', 'rem', 'vh', 'vw'], a: 1 }
+      ],
+      p2: [
+        'How do you approach a responsive layout that must work across different content lengths?',
+        'Tell me about a visual inconsistency you fixed across browsers or devices.',
+        'How do you build and maintain accessible design tokens or components?'
+      ]
+    },
+    fullstack: {
+      role: 'Full-stack Web Developer',
+      skills: ['JavaScript', 'React', 'Next.js', 'APIs', 'Data modeling'],
+      p1: [
+        { q: 'Which HTTP method is normally used to retrieve a resource?', o: ['GET', 'POST', 'PATCH', 'DELETE'], a: 0 },
+        { q: 'Where should server-only credentials be kept?', o: ['In public client code', 'In server-side environment configuration', 'In a URL query string', 'In a CSS file'], a: 1 },
+        { q: 'What is a primary purpose of input validation on the server?', o: ['To replace authorization', 'To ensure incoming data meets expected rules', 'To improve image quality', 'To avoid database indexes'], a: 1 }
+      ],
+      p2: [
+        'Walk me through how you would build and test a small feature from the UI through its API.',
+        'How do you keep client and server responsibilities clear in a web application?',
+        'Tell me about a production issue you traced across more than one layer.'
+      ]
+    },
+    qa: {
+      role: 'Frontend QA Automation Engineer',
+      skills: ['JavaScript', 'Browser testing', 'Accessibility', 'CI', 'Test design'],
+      p1: [
+        { q: 'What is a good target for an end-to-end browser test?', o: ['A user-critical flow across the interface', 'Every internal helper function', 'A random pixel on the page', 'Only a dependency version'], a: 0 },
+        { q: 'Why prefer role or label locators in UI tests?', o: ['They reflect how users find controls', 'They are always shorter', 'They bypass the browser', 'They remove the need for assertions'], a: 0 },
+        { q: 'What is a useful way to reduce flaky UI tests?', o: ['Add fixed long sleeps everywhere', 'Wait for observable conditions and isolate test data', 'Retry every test indefinitely', 'Disable all assertions'], a: 1 }
+      ],
+      p2: [
+        'How do you decide which user journeys deserve end-to-end coverage?',
+        'Describe a flaky test you stabilized and what caused the flakiness.',
+        'How do you include accessibility checks in a frontend test strategy?'
+      ]
+    }
+  };
+
+  function applyTemplate(id) {
+    var template = TEMPLATES[id];
+    if (!template) return;
+    $('#role').value = template.role;
+    S.p1 = template.p1.map(function (item) { return { q: item.q, o: item.o.slice(), a: item.a }; });
+    S.p2 = template.p2.slice();
+    var tags = $('#skill-tags');
+    tags.textContent = '';
+    template.skills.forEach(function (skill) { tags.appendChild(el('span', 'skill', skill)); });
+    $('#msg1').textContent = '';
+    $('#msg2').textContent = '';
+    update();
+  }
 
   // tabs
   $$('.card[data-part]').forEach(function (card) {
