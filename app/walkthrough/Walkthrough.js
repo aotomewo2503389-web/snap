@@ -106,7 +106,9 @@ export default function Walkthrough() {
         <ol className="walkthrough-progress" aria-label="Walkthrough progress">
           {steps.map((title, index) => (
             <li
-              className={index === step ? "current" : index < step ? "done" : ""}
+              className={
+                index === step ? "current" : index < step ? "done" : ""
+              }
               key={title}
             >
               <button
@@ -187,7 +189,9 @@ export default function Walkthrough() {
                     </div>
 
                     <div className="guided-field">
-                      <GuidedPointer number="02">Choose an interview window</GuidedPointer>
+                      <GuidedPointer number="02">
+                        Choose an interview window
+                      </GuidedPointer>
                       <div className="walkthrough-date-grid">
                         <div>
                           <label
@@ -201,7 +205,9 @@ export default function Walkthrough() {
                             id="walk-open-from"
                             type="date"
                             value={openFrom}
-                            onChange={(event) => setOpenFrom(event.target.value)}
+                            onChange={(event) =>
+                              setOpenFrom(event.target.value)
+                            }
                           />
                         </div>
                         <div>
@@ -217,7 +223,9 @@ export default function Walkthrough() {
                             type="date"
                             min={openFrom || undefined}
                             value={openUntil}
-                            onChange={(event) => setOpenUntil(event.target.value)}
+                            onChange={(event) =>
+                              setOpenUntil(event.target.value)
+                            }
                           />
                         </div>
                       </div>
@@ -276,7 +284,9 @@ export default function Walkthrough() {
                         </div>
                       </div>
                       <div className="guided-field">
-                        <GuidedPointer number="04">Choose a time budget</GuidedPointer>
+                        <GuidedPointer number="04">
+                          Choose a time budget
+                        </GuidedPointer>
                         <label
                           className="walkthrough-label"
                           htmlFor="walk-voice-time"
@@ -410,7 +420,9 @@ export default function Walkthrough() {
                     }
                   }}
                 >
-                  {step === steps.length - 1 ? "Finish walkthrough" : "Continue"}
+                  {step === steps.length - 1
+                    ? "Finish walkthrough"
+                    : "Continue"}
                 </button>
               </div>
             )}
