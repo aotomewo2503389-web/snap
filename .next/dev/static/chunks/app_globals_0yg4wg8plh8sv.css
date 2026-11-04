@@ -755,36 +755,8 @@ details p {
   margin: 0 auto 28px;
 }
 
-.form {
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 34px;
-  display: flex;
-}
-
-.form input {
-  border: 1px solid var(--line);
-  background: var(--bg-alt);
-  min-width: 280px;
-  height: 44px;
-  color: var(--ink);
-  border-radius: 980px;
-  padding: 0 20px;
-  font-family: inherit;
-  font-size: 17px;
-}
-
-.form input:focus {
-  outline: 2px solid var(--blue);
-  outline-offset: 1px;
-}
-
-.note {
-  color: var(--muted);
-  min-height: 20px;
-  margin-top: 14px;
-  font-size: 14px;
+.cta .hero-cta {
+  margin-top: 30px;
 }
 
 footer {
@@ -1345,19 +1317,63 @@ dialog::backdrop {
 .tour-target {
   z-index: 11;
   outline: 3px solid var(--blue);
-  outline-offset: 5px;
-  border-radius: 14px;
+  outline-offset: 6px;
+  border-radius: 18px;
+  scroll-margin-top: 76px;
+  transition: outline-color .2s, box-shadow .2s;
   position: relative;
+  box-shadow: 0 0 0 8px #0071e31f;
 }
 
 .tour-dialog {
-  background: var(--card);
-  width: min(480px, 100% - 32px);
+  width: min(440px, 100% - 32px);
+  max-height: calc(100dvh - 32px);
+  color: var(--ink);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  backdrop-filter: blur(28px) saturate(180%);
+  background: #fafbffcc;
+  border: 1px solid #ffffffc7;
+  margin: 0;
   padding: 0;
+  position: fixed;
+  overflow: visible;
+  box-shadow: 0 24px 80px #0a142847, inset 0 1px #ffffffd9;
+}
+
+.tour-dialog::backdrop {
+  background: radial-gradient(var(--tour-spotlight, ellipse 120px 60px at 50% 50%),
+    transparent 90%,
+    #0c121e6b 100%);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.tour-dialog:before {
+  content: "";
+  left: var(--tour-arrow-x, 50%);
+  background: #fafbffeb;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.tour-dialog[data-placement="below"]:before {
+  border-top: 1px solid #ffffffc7;
+  border-left: 1px solid #ffffffc7;
+  top: -8px;
+}
+
+.tour-dialog[data-placement="above"]:before {
+  border-bottom: 1px solid #ffffffc7;
+  border-right: 1px solid #ffffffc7;
+  bottom: -8px;
 }
 
 .tour-body {
+  max-height: calc(100dvh - 34px);
   padding: 28px;
+  overflow-y: auto;
 }
 
 .tour-body h3 {
@@ -1371,6 +1387,7 @@ dialog::backdrop {
 
 .tour-progress {
   color: var(--blue);
+  letter-spacing: .08em;
   font-size: 13px;
   font-weight: 600;
 }
@@ -1416,9 +1433,26 @@ dialog::backdrop {
   display: none;
 }
 
-.local-remove {
-  margin-top: 8px;
-  font-size: 13px;
+@media (prefers-color-scheme: dark) {
+  .tour-dialog {
+    background: #23252cc7;
+    border-color: #fff3;
+    box-shadow: 0 24px 80px #0000007a, inset 0 1px #ffffff29;
+  }
+
+  .tour-dialog:before {
+    background: #23252ceb;
+  }
+
+  .tour-dialog[data-placement="below"]:before, .tour-dialog[data-placement="above"]:before {
+    border-color: #fff3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tour-target {
+    transition: none;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1436,6 +1470,25 @@ dialog::backdrop {
 
   .pv-actions .btn {
     flex: none;
+  }
+}
+
+@media (max-height: 520px) {
+  .tour-body {
+    padding: 18px;
+  }
+
+  .tour-body h3 {
+    margin: 5px 0;
+  }
+
+  .tour-body p {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .tour-actions {
+    margin-top: 14px;
   }
 }
 

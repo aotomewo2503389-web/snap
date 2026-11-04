@@ -1149,6 +1149,7 @@ dialog::backdrop {
   outline-offset: 6px;
   border-radius: 18px;
   box-shadow: 0 0 0 8px rgba(0, 113, 227, 0.12);
+  scroll-margin-top: 76px;
   transition:
     outline-color 0.2s ease,
     box-shadow 0.2s ease;
@@ -1175,6 +1176,8 @@ dialog::backdrop {
     transparent 90%,
     rgba(12, 18, 30, 0.42) 100%
   );
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 .tour-dialog::before {
   content: "";
@@ -1282,5 +1285,20 @@ dialog::backdrop {
   }
   .pv-actions .btn {
     flex: none;
+  }
+}
+@media (max-height: 520px) {
+  .tour-body {
+    padding: 18px;
+  }
+  .tour-body h3 {
+    margin: 5px 0;
+  }
+  .tour-body p {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  .tour-actions {
+    margin-top: 14px;
   }
 }

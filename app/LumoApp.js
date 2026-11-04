@@ -66,13 +66,9 @@ export default function LumoApp() {
               {"Sign in"}
             </button>
             {"\n      "}
-            <button
-              className={"btn small"}
-              type={"button"}
-              data-start-tour={true}
-            >
+            <a className={"btn small"} href={"/walkthrough"}>
               {"Start now"}
-            </button>
+            </a>
             {"\n    "}
           </div>
           {"\n  "}
@@ -102,14 +98,9 @@ export default function LumoApp() {
             {"\n    "}
             <div className={"hero-cta"}>
               {"\n      "}
-              <button
-                className={"btn"}
-                type={"button"}
-                id={"start-now-hero"}
-                data-start-tour={true}
-              >
+              <a className={"btn"} href={"/walkthrough"}>
                 {"Start now"}
-              </button>
+              </a>
               {"\n      "}
               <a className={"btn ghost"} href={"#how"}>
                 {"See how it works ›"}
@@ -1189,13 +1180,9 @@ export default function LumoApp() {
                 {"See how Lumo works, then build an interview."}
               </p>
               <div className={"hero-cta"}>
-                <button
-                  className={"btn"}
-                  type={"button"}
-                  data-start-tour={true}
-                >
+                <a className={"btn"} href={"/walkthrough"}>
                   {"Start now"}
-                </button>
+                </a>
               </div>
             {"\n  "}
           </div>
